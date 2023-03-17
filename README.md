@@ -1,2 +1,2 @@
 # A4BX6-Paper
-Datasets for A4BX6 paper
+train/test Datasets for A4BX6 
