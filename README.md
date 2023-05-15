@@ -9,7 +9,9 @@ homo.R    symbolic regression code for HOMO
 
 lumo.R     symbolic regression code for LUMO
 
-main.R    codes for feature selection and heat map   (特征选择和热图代码)
+Feature_selection_and_Pearson.R     codes for feature selection and heat map
+
+main.R    combined codes for feature selection, heat map and machine learning
 
 generate_input_for_MS.R generates all input files for dmol3
 
