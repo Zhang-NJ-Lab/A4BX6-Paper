@@ -9,10 +9,11 @@ homo.R    symbolic regression code for HOMO
 
 lumo.R     symbolic regression code for LUMO
 
+main.R    codes for feature selection and heat map   (特征选择和热图代码)
+
 generate_input_for_MS.R generates all input files for dmol3
 
 operationontxt.R    aggregate the information in the output of symbolic regression
-
 
 filter_file.R     zip 2740 structure files into 1 file, and automatically generate descriptor abbreviation (将筛选出的2740个结构的t.outmol打包到一个文件夹里，还有自动生成所有描述符的Abbreviation)
 
