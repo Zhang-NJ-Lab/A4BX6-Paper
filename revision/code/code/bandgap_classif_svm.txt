@@ -1,0 +1,2106 @@
+<LearnerClassifSVM:classif.svm>
+* Model: -
+* Parameters: type=C-classification
+* Packages: mlr3, mlr3learners, e1071
+* Predict Types:  response, [prob]
+* Feature Types: logical, integer, numeric
+* Properties: multiclass, twoclass
+INFO  [13:43:34.621] [bbotk] Starting to optimize 5 parameter(s) with '<TunerGridSearch>' and '<TerminatorNone>'
+INFO  [13:43:34.654] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:43:34.722] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:43:34.752] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:43:35.106] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:43:35.299] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:43:35.487] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:44:15.178] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:44:54.390] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:32.863] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:33.068] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:33.279] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:33.600] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:33.855] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:34.101] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:34.343] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:34.562] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:34.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:34.994] [mlr3] Finished benchmark
+INFO  [13:45:35.033] [bbotk] Result of batch 1:
+INFO  [13:45:35.035] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [13:45:35.035] [bbotk]      linear -9.210340        NA -9.2103404     NA   0.8190195        0      0
+INFO  [13:45:35.035] [bbotk]      linear  6.907755        NA -5.9091779     NA   0.8245164        0      0
+INFO  [13:45:35.035] [bbotk]  polynomial -3.837642 -3.837642 -5.9091779      5   0.8015445        0      0
+INFO  [13:45:35.035] [bbotk]  polynomial  1.535057  1.535057  0.6931472      5   0.7345770        0      0
+INFO  [13:45:35.035] [bbotk]      radial  1.535057 -3.837642  0.6931472     NA   0.8549009        0      0
+INFO  [13:45:35.035] [bbotk]  runtime_learners                                uhash
+INFO  [13:45:35.035] [bbotk]             0.558 7c5c5d5d-11d8-4b3f-8105-3edaf0e0f4ea
+INFO  [13:45:35.035] [bbotk]           117.358 6e047290-3708-4302-a6bd-9be1ab8c23c3
+INFO  [13:45:35.035] [bbotk]             0.613 b567d94f-413f-4730-b16a-ce230725d188
+INFO  [13:45:35.035] [bbotk]             0.729 2d0243f3-1d05-4618-952f-057f1cdb4cf7
+INFO  [13:45:35.035] [bbotk]             0.634 eec4ed14-3650-4037-860f-1068ecb00a38
+INFO  [13:45:35.036] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:45:35.065] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:45:35.068] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:35.408] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:35.761] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:36.116] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:36.303] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:36.496] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:36.689] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:36.908] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:37.126] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:37.349] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:37.541] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:37.733] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:37.932] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:38.135] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:38.341] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:38.543] [mlr3] Finished benchmark
+INFO  [13:45:38.577] [bbotk] Result of batch 2:
+INFO  [13:45:38.578] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [13:45:38.578] [bbotk]      linear  1.535057        NA  0.6931472     NA   0.8064772        0      0
+INFO  [13:45:38.578] [bbotk]  polynomial -9.210340 -9.210340 -5.9091779      5   0.5917513        0      0
+INFO  [13:45:38.578] [bbotk]  polynomial  6.907755 -9.210340 -9.2103404      2   0.6933445        0      0
+INFO  [13:45:38.578] [bbotk]  polynomial  6.907755 -9.210340  0.6931472      4   0.5723949        0      0
+INFO  [13:45:38.578] [bbotk]      radial -3.837642  1.535057  0.6931472     NA   0.5393993        0      0
+INFO  [13:45:38.578] [bbotk]  runtime_learners                                uhash
+INFO  [13:45:38.578] [bbotk]             1.032 6e8a80cf-bad2-40ea-8e13-a88b145464e4
+INFO  [13:45:38.578] [bbotk]             0.557 10378133-f075-42b9-a330-3aa863e4b9c2
+INFO  [13:45:38.578] [bbotk]             0.646 9124e858-304a-4a62-887b-14ef472d264a
+INFO  [13:45:38.578] [bbotk]             0.565 f9763b25-6969-4448-873c-080179b6b394
+INFO  [13:45:38.578] [bbotk]             0.594 4737d25b-9f86-4043-8c0e-0db5299b8fe6
+INFO  [13:45:38.579] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:45:38.613] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:45:38.615] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:38.793] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:38.979] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:39.165] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:39.357] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:39.558] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:39.754] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:39.987] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:40.222] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:40.456] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:40.878] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:41.260] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:41.623] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:41.901] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:42.186] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:42.469] [mlr3] Finished benchmark
+INFO  [13:45:42.504] [bbotk] Result of batch 3:
+INFO  [13:45:42.504] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [13:45:42.504] [bbotk]  polynomial -3.837642 -3.837642  0.6931472      3   0.8168318        0      0
+INFO  [13:45:42.504] [bbotk]  polynomial  1.535057 -9.210340 -9.2103404      2   0.6643761        0      0
+INFO  [13:45:42.504] [bbotk]  polynomial  1.535057 -3.837642 -9.2103404      2   0.7322420        0      0
+INFO  [13:45:42.504] [bbotk]  polynomial  6.907755  6.907755 -9.2103404      5   0.7400576        0      0
+INFO  [13:45:42.504] [bbotk]      radial -9.210340 -3.837642 -9.2103404     NA   0.8442223        0      0
+INFO  [13:45:42.504] [bbotk]  runtime_learners                                uhash
+INFO  [13:45:42.504] [bbotk]             0.535 23c4482f-6fa3-461c-ae31-74a45d6c7414
+INFO  [13:45:42.504] [bbotk]             0.575 9752a1c1-7924-4e19-a9aa-2a7f9a699d19
+INFO  [13:45:42.504] [bbotk]             0.687 e809a7e6-5101-4ed4-b17d-50baba3483d2
+INFO  [13:45:42.504] [bbotk]             1.151 7eca9668-7a38-48c8-8084-a9e2557bc43e
+INFO  [13:45:42.504] [bbotk]             0.830 add0290d-1467-48fd-b1d8-3cae1ea74913
+INFO  [13:45:42.505] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:45:42.535] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:45:42.538] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:42.997] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:43.428] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:43.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:44.021] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:44.227] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:44.431] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:45:44.656] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:45:44.890] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:45:45.122] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:46:46.479] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:47:49.885] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:48.729] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:48.958] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:49.186] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:49.406] [mlr3] Finished benchmark
+INFO  [13:48:49.440] [bbotk] Result of batch 4:
+INFO  [13:48:49.441] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [13:48:49.441] [bbotk]  polynomial -9.210340  6.907755 -5.9091779      4   0.7487862        0      0
+INFO  [13:48:49.441] [bbotk]  polynomial -3.837642 -3.837642 -9.2103404      3   0.8193117        0      0
+INFO  [13:48:49.441] [bbotk]  polynomial  1.535057 -3.837642 -5.9091779      4   0.7911261        0      0
+INFO  [13:48:49.441] [bbotk]  polynomial  1.535057  1.535057  0.6931472      2   0.7477618        0      0
+INFO  [13:48:49.441] [bbotk]  polynomial  6.907755 -3.837642  0.6931472      4   0.7805055        0      0
+INFO  [13:48:49.441] [bbotk]  runtime_learners                                uhash
+INFO  [13:48:49.441] [bbotk]             1.264 b53d8d1f-0f09-444a-a496-2e6eaeaee4d3
+INFO  [13:48:49.441] [bbotk]             0.592 91bd9b5a-1af8-4b4e-8f48-ce94a480581f
+INFO  [13:48:49.441] [bbotk]             0.674 3d403a56-1b24-40a2-b7d9-280a09ceb940
+INFO  [13:48:49.441] [bbotk]           183.590 4cf4a70e-e1f6-46c3-b7d2-3eeed1121f1d
+INFO  [13:48:49.441] [bbotk]             0.659 789a6e65-d9b5-4080-9c8e-21ff9b3dfd45
+INFO  [13:48:49.442] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:48:49.472] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:48:49.474] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:49.763] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:49.954] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:50.144] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:51.084] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:51.851] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:52.592] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:52.777] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:52.969] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:53.158] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:53.755] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:54.362] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:54.973] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:55.266] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:55.562] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:55.855] [mlr3] Finished benchmark
+INFO  [13:48:55.889] [bbotk] Result of batch 5:
+INFO  [13:48:55.890] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [13:48:55.890] [bbotk]  polynomial -3.837642 -9.210340 -9.210340      2   0.6379443        0      0
+INFO  [13:48:55.890] [bbotk]  polynomial -3.837642  6.907755 -2.608015      3   0.7699249        0      0
+INFO  [13:48:55.890] [bbotk]  polynomial  1.535057 -9.210340 -5.909178      2   0.6379443        0      0
+INFO  [13:48:55.890] [bbotk]      radial  1.535057  6.907755 -9.210340     NA   0.5000000        0      0
+INFO  [13:48:55.890] [bbotk]      radial  6.907755 -9.210340 -2.608015     NA   0.8365337        0      0
+INFO  [13:48:55.890] [bbotk]  runtime_learners                                uhash
+INFO  [13:48:55.890] [bbotk]             0.651 05961487-5e38-4bfb-8929-7f5a489d8f42
+INFO  [13:48:55.890] [bbotk]             2.432 f64dbc6e-ebbb-4bd9-8855-abc02b0f5b1a
+INFO  [13:48:55.890] [bbotk]             0.553 0b52958c-fcae-4921-b5c6-cd76a5657f27
+INFO  [13:48:55.890] [bbotk]             1.797 e1cfd3dd-a644-4d2a-9acd-549cfb0fad98
+INFO  [13:48:55.890] [bbotk]             0.866 b20c54a7-cd4f-4d90-90f0-41f7917f88c1
+INFO  [13:48:55.891] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:48:55.920] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:48:55.923] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:56.108] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:56.302] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:56.495] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:56.682] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:56.875] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:57.067] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:48:57.452] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:48:57.821] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:48:58.184] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:01.375] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:03.317] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:05.734] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:06.004] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:06.282] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:06.563] [mlr3] Finished benchmark
+INFO  [13:49:06.601] [bbotk] Result of batch 6:
+INFO  [13:49:06.602] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [13:49:06.602] [bbotk]  polynomial -9.210340 -9.210340 -5.9091779      4   0.5563360        0      0
+INFO  [13:49:06.602] [bbotk]  polynomial -9.210340 -9.210340  0.6931472      4   0.6875021        0      0
+INFO  [13:49:06.602] [bbotk]  polynomial -9.210340  1.535057 -9.2103404      5   0.7400587        0      0
+INFO  [13:49:06.602] [bbotk]  polynomial  6.907755  1.535057 -9.2103404      3   0.7699456        0      0
+INFO  [13:49:06.602] [bbotk]      radial -9.210340 -3.837642 -5.9091779     NA   0.8317092        0      0
+INFO  [13:49:06.602] [bbotk]  runtime_learners                                uhash
+INFO  [13:49:06.602] [bbotk]             0.558 4b399fa6-2818-4cbd-bbec-cff00e40cbf6
+INFO  [13:49:06.602] [bbotk]             0.554 9fcd1028-3ba7-4ad0-ae13-b3a52a602956
+INFO  [13:49:06.602] [bbotk]             1.101 cc627e96-b15c-4fe0-8d26-b670e9a217b6
+INFO  [13:49:06.602] [bbotk]             7.533 3b0b1b21-b2dd-4463-98b8-7d1bc3e9df02
+INFO  [13:49:06.602] [bbotk]             0.812 0401a531-7c2f-4f90-a23e-c2e2657007ad
+INFO  [13:49:06.602] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:49:06.632] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:49:06.634] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:06.810] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:06.988] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:07.169] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:07.349] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:07.539] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:07.730] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:07.918] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:08.112] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:08.314] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:11.758] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:14.047] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:16.069] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:16.287] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:16.519] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:16.742] [mlr3] Finished benchmark
+INFO  [13:49:16.776] [bbotk] Result of batch 7:
+INFO  [13:49:16.777] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [13:49:16.777] [bbotk]      linear -9.210340        NA  0.6931472     NA   0.5955923        0      0
+INFO  [13:49:16.777] [bbotk]  polynomial -9.210340 -3.837642  0.6931472      3   0.8130140        0      0
+INFO  [13:49:16.777] [bbotk]  polynomial -3.837642 -9.210340 -2.6080153      3   0.8032707        0      0
+INFO  [13:49:16.777] [bbotk]  polynomial  1.535057  1.535057 -9.2103404      3   0.7699456        0      0
+INFO  [13:49:16.777] [bbotk]      radial -3.837642  6.907755  0.6931472     NA   0.5000000        0      0
+INFO  [13:49:16.777] [bbotk]  runtime_learners                                uhash
+INFO  [13:49:16.777] [bbotk]             0.517 42a580ff-fbfd-415c-bc18-5994024e9b9d
+INFO  [13:49:16.777] [bbotk]             0.543 80661f43-5d21-49fa-878d-5aabdcdae090
+INFO  [13:49:16.777] [bbotk]             0.566 462b63fe-1be9-4be4-a6de-0a8b717742b5
+INFO  [13:49:16.777] [bbotk]             7.739 393589b5-b4a0-4435-b695-945c192f85dc
+INFO  [13:49:16.777] [bbotk]             0.656 7b8cf6f7-ee48-4ee9-a8b0-6683c8a636b9
+INFO  [13:49:16.778] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:49:16.808] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:49:16.810] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:17.576] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:18.276] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:18.944] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:19.280] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:19.604] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:19.923] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:20.277] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:20.616] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:20.930] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:21.221] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:21.519] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:21.804] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:22.265] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:22.706] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:23.124] [mlr3] Finished benchmark
+INFO  [13:49:23.159] [bbotk] Result of batch 8:
+INFO  [13:49:23.160] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [13:49:23.160] [bbotk]  polynomial -9.210340  1.535057 -9.2103404      3   0.8035125        0      0
+INFO  [13:49:23.160] [bbotk]  polynomial -3.837642  1.535057 -5.9091779      5   0.7400586        0      0
+INFO  [13:49:23.160] [bbotk]  polynomial  6.907755  6.907755 -2.6080153      4   0.7487481        0      0
+INFO  [13:49:23.160] [bbotk]      radial  1.535057 -9.210340 -5.9091779     NA   0.8197859        0      0
+INFO  [13:49:23.160] [bbotk]      radial  6.907755 -3.837642  0.6931472     NA   0.8158672        0      0
+INFO  [13:49:23.160] [bbotk]  runtime_learners                                uhash
+INFO  [13:49:23.160] [bbotk]             2.115 5be2c42c-4746-49a8-8450-2df62a6c163d
+INFO  [13:49:23.160] [bbotk]             0.963 71193f9f-9372-4c5f-b92f-782e598b1a8e
+INFO  [13:49:23.160] [bbotk]             0.989 655fc1ef-f1fe-4ea5-9cd7-fddefe05d672
+INFO  [13:49:23.160] [bbotk]             0.859 afbadee8-3776-4e1f-8688-1be6d8034bd4
+INFO  [13:49:23.160] [bbotk]             1.302 b09b0753-8f96-4dfd-82b3-2b4593af7091
+INFO  [13:49:23.161] [bbotk] Evaluating 5 configuration(s)
+INFO  [13:49:23.191] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [13:49:23.193] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:23.643] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:24.066] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:24.457] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:49:24.656] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:49:24.859] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [13:49:25.061] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [13:53:43.382] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [13:58:04.208] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:23.444] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:23.754] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:02:24.051] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:24.333] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:24.623] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:02:24.925] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:25.219] [mlr3] Finished benchmark
+INFO  [14:02:25.254] [bbotk] Result of batch 9:
+INFO  [14:02:25.255] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [14:02:25.255] [bbotk]  polynomial -9.210340  1.535057 -5.909178      4   0.7487709        0      0
+INFO  [14:02:25.255] [bbotk]  polynomial  1.535057 -3.837642 -5.909178      3   0.8437566        0      0
+INFO  [14:02:25.255] [bbotk]  polynomial  1.535057  6.907755 -9.210340      2   0.5179498        0      0
+INFO  [14:02:25.255] [bbotk]  polynomial  6.907755  6.907755 -2.608015      5   0.7397651        0      0
+INFO  [14:02:25.255] [bbotk]      radial  1.535057 -9.210340 -9.210340     NA   0.8197489        0      0
+INFO  [14:02:25.255] [bbotk]  runtime_learners                                uhash
+INFO  [14:02:25.255] [bbotk]             1.246 03387855-9046-4dc5-ba39-039fa742fd7b
+INFO  [14:02:25.255] [bbotk]             0.587 756b559d-3238-46f1-9c3d-1cf57fd01417
+INFO  [14:02:25.255] [bbotk]           778.363 5919ce38-cedb-47b9-9d96-a4372644fd47
+INFO  [14:02:25.255] [bbotk]             0.872 106a9a17-199d-4914-a36f-dc21230cae2c
+INFO  [14:02:25.255] [bbotk]             0.867 171c0772-7d8c-4bec-916b-551364a459a1
+INFO  [14:02:25.256] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:02:25.286] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:02:25.288] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:25.544] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:02:25.790] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:26.029] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:26.379] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:02:26.732] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:27.042] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:27.313] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:02:27.605] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:27.887] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:28.112] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:02:28.343] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:28.574] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:28.836] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:02:29.115] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:02:29.383] [mlr3] Finished benchmark
+INFO  [14:02:29.418] [bbotk] Result of batch 10:
+INFO  [14:02:29.419] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:02:29.419] [bbotk]  polynomial  1.535057  6.907755  0.6931472      5   0.7337970        0      0
+INFO  [14:02:29.419] [bbotk]  polynomial  6.907755 -3.837642 -5.9091779      4   0.7830226        0      0
+INFO  [14:02:29.419] [bbotk]      radial -9.210340 -3.837642 -2.6080153     NA   0.8317092        0      0
+INFO  [14:02:29.419] [bbotk]      radial -3.837642  6.907755 -2.6080153     NA   0.5000000        0      0
+INFO  [14:02:29.419] [bbotk]      radial  1.535057 -9.210340  0.6931472     NA   0.8101152        0      0
+INFO  [14:02:29.419] [bbotk]  runtime_learners                                uhash
+INFO  [14:02:29.419] [bbotk]             0.723 a7961ff9-8362-4dc5-b7e1-245825c38637
+INFO  [14:02:29.419] [bbotk]             0.995 a5e4ac46-731a-451c-b903-6d6a4cb73181
+INFO  [14:02:29.419] [bbotk]             0.828 4ebbc203-343b-411b-8400-cbc64b8da2c2
+INFO  [14:02:29.419] [bbotk]             0.671 b3617dd7-56a4-40f7-b08a-e2a52cfaf22c
+INFO  [14:02:29.419] [bbotk]             0.791 76ac14d0-2408-4721-bcb8-0095cc029f00
+INFO  [14:02:29.419] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:02:29.449] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:02:29.452] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:02:51.428] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:14.710] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:37.147] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:37.343] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:37.538] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:37.735] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:37.913] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:38.090] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:38.265] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:38.484] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:38.704] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:38.927] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:39.601] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:40.252] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:40.920] [mlr3] Finished benchmark
+INFO  [14:03:40.955] [bbotk] Result of batch 11:
+INFO  [14:03:40.956] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:03:40.956] [bbotk]      linear  6.907755        NA  0.6931472     NA   0.8166778        0      0
+INFO  [14:03:40.956] [bbotk]  polynomial  1.535057 -3.837642 -2.6080153      3   0.8428639        0      0
+INFO  [14:03:40.956] [bbotk]  polynomial  1.535057 -3.837642  0.6931472      2   0.7104734        0      0
+INFO  [14:03:40.956] [bbotk]      radial -9.210340  1.535057  0.6931472     NA   0.5322622        0      0
+INFO  [14:03:40.956] [bbotk]      radial  1.535057  1.535057 -5.9091779     NA   0.6903205        0      0
+INFO  [14:03:40.956] [bbotk]  runtime_learners                                uhash
+INFO  [14:03:40.956] [bbotk]            67.675 b2e1befe-f0e3-4451-9629-b4984a7532f1
+INFO  [14:03:40.956] [bbotk]             0.566 a874c804-553c-4337-a1ea-d99838b6b31f
+INFO  [14:03:40.956] [bbotk]             0.512 49fdb1e1-bcfd-4500-a09f-f85143c80d9f
+INFO  [14:03:40.956] [bbotk]             0.645 c062f107-81d9-4234-b599-dbd4cc755fec
+INFO  [14:03:40.956] [bbotk]             1.973 56b75e08-2cf4-42c6-8ee2-500833ca22ec
+INFO  [14:03:40.957] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:03:40.993] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:03:40.996] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:41.176] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:41.371] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:41.561] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:42.132] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:42.678] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:43.152] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:43.340] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:43.531] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:43.726] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:43.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:44.284] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:44.510] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:44.732] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:44.960] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:45.189] [mlr3] Finished benchmark
+INFO  [14:03:45.224] [bbotk] Result of batch 12:
+INFO  [14:03:45.225] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:03:45.225] [bbotk]  polynomial -3.837642 -3.837642 -2.6080153      2   0.6342652        0      0
+INFO  [14:03:45.225] [bbotk]  polynomial -3.837642  1.535057 -9.2103404      4   0.7487776        0      0
+INFO  [14:03:45.225] [bbotk]  polynomial  1.535057 -9.210340 -9.2103404      3   0.8032707        0      0
+INFO  [14:03:45.225] [bbotk]      radial -9.210340  6.907755 -5.9091779     NA   0.5000000        0      0
+INFO  [14:03:45.225] [bbotk]      radial  1.535057  6.907755  0.6931472     NA   0.5000000        0      0
+INFO  [14:03:45.225] [bbotk]  runtime_learners                                uhash
+INFO  [14:03:45.225] [bbotk]             0.547 68968506-22c0-400f-ba3f-5972157aa96b
+INFO  [14:03:45.225] [bbotk]             1.570 8de2c7dd-39e3-40c3-8c68-ccbb328699f0
+INFO  [14:03:45.225] [bbotk]             0.553 81edc3a8-b718-44dd-b325-af8cc6c387b2
+INFO  [14:03:45.225] [bbotk]             0.766 245bdb5f-8cf6-4ea4-98f8-bc05316eff29
+INFO  [14:03:45.225] [bbotk]             0.664 ab875e7a-6112-412f-8714-bf56c8de009d
+INFO  [14:03:45.225] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:03:45.255] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:03:45.257] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:45.469] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:45.684] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:45.904] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:46.099] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:46.300] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:46.503] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:46.696] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:46.893] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:47.093] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:47.274] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:47.461] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:47.644] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:03:48.249] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:03:48.861] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:03:49.474] [mlr3] Finished benchmark
+INFO  [14:03:49.508] [bbotk] Result of batch 13:
+INFO  [14:03:49.509] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:03:49.509] [bbotk]  polynomial -9.210340  1.535057 -2.6080153      2   0.7333028        0      0
+INFO  [14:03:49.509] [bbotk]  polynomial -3.837642 -3.837642 -5.9091779      3   0.8193537        0      0
+INFO  [14:03:49.509] [bbotk]  polynomial  1.535057 -9.210340 -2.6080153      4   0.6859279        0      0
+INFO  [14:03:49.509] [bbotk]  polynomial  1.535057 -3.837642  0.6931472      5   0.8090558        0      0
+INFO  [14:03:49.509] [bbotk]      radial -3.837642  1.535057 -5.9091779     NA   0.6891015        0      0
+INFO  [14:03:49.509] [bbotk]  runtime_learners                                uhash
+INFO  [14:03:49.509] [bbotk]             0.631 a1f1a27b-cb2a-43cb-94c4-ce468fd8f92d
+INFO  [14:03:49.509] [bbotk]             0.580 37c0a163-3949-43b7-9440-6056edeb1c42
+INFO  [14:03:49.509] [bbotk]             0.573 b1d1486d-0455-4857-977c-0fdc11a18813
+INFO  [14:03:49.509] [bbotk]             0.535 c5388791-3297-45ea-8a4d-8a8cb4e9afb4
+INFO  [14:03:49.509] [bbotk]             1.809 e4a013d3-6c10-4984-a767-cde694f6dde2
+INFO  [14:03:49.510] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:03:49.540] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:03:49.542] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:04:25.841] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:05:01.522] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:05:36.621] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:05:36.812] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:05:37.010] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:05:37.208] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:05:37.561] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:05:37.889] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:05:38.206] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:05:38.390] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:05:38.580] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:05:38.768] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:09:57.647] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:14:21.389] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:43.568] [mlr3] Finished benchmark
+INFO  [14:18:43.602] [bbotk] Result of batch 14:
+INFO  [14:18:43.603] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:18:43.603] [bbotk]      linear  6.907755        NA -2.6080153     NA   0.8255048        0      0
+INFO  [14:18:43.603] [bbotk]  polynomial -3.837642 -9.210340 -9.2103404      4   0.6883852        0      0
+INFO  [14:18:43.603] [bbotk]  polynomial -3.837642  6.907755 -5.9091779      5   0.7400673        0      0
+INFO  [14:18:43.603] [bbotk]  polynomial  6.907755 -9.210340  0.6931472      3   0.8130140        0      0
+INFO  [14:18:43.603] [bbotk]  polynomial  6.907755  6.907755  0.6931472      2   0.4884570        0      0
+INFO  [14:18:43.603] [bbotk]  runtime_learners                                uhash
+INFO  [14:18:43.603] [bbotk]           107.062 c2e3cb0d-8a35-4c62-b3e9-6394cd947818
+INFO  [14:18:43.603] [bbotk]             0.570 5d379d5b-226e-440d-afb2-03235b4b9542
+INFO  [14:18:43.603] [bbotk]             0.980 ba4b59cc-583b-4767-bf30-a71ee40bb7de
+INFO  [14:18:43.603] [bbotk]             0.547 33b006d2-bdf7-4b49-ae73-f02b639cb468
+INFO  [14:18:43.603] [bbotk]           784.784 a327684a-467b-4efd-b6a0-7246819679fd
+INFO  [14:18:43.603] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:18:43.638] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:18:43.640] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:43.811] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:43.987] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:44.161] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:44.350] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:44.543] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:44.737] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:45.708] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:46.483] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:47.258] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:47.471] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:47.687] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:47.905] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:48.430] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:48.939] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:49.445] [mlr3] Finished benchmark
+INFO  [14:18:49.480] [bbotk] Result of batch 15:
+INFO  [14:18:49.480] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:18:49.480] [bbotk]  polynomial -9.210340  1.535057  0.6931472      2   0.7104757        0      0
+INFO  [14:18:49.480] [bbotk]  polynomial -3.837642 -9.210340 -2.6080153      2   0.6379443        0      0
+INFO  [14:18:49.480] [bbotk]  polynomial -3.837642  1.535057 -2.6080153      3   0.7700091        0      0
+INFO  [14:18:49.480] [bbotk]  polynomial  6.907755 -9.210340 -5.9091779      2   0.6928281        0      0
+INFO  [14:18:49.480] [bbotk]      radial  6.907755  6.907755 -2.6080153     NA   0.5000000        0      0
+INFO  [14:18:49.480] [bbotk]  runtime_learners                                uhash
+INFO  [14:18:49.480] [bbotk]             0.504 92dcccad-bda4-45c6-8679-1d094613ad9f
+INFO  [14:18:49.480] [bbotk]             0.558 89b5a9fb-7f31-4c92-99d2-fb7cae6f2a4f
+INFO  [14:18:49.480] [bbotk]             2.504 15f056a1-e5b2-46dd-8fd8-8377ee708f4d
+INFO  [14:18:49.480] [bbotk]             0.629 64df7cdc-0dfc-42c8-a4c4-0efa20ae2b51
+INFO  [14:18:49.480] [bbotk]             1.523 9b1dea64-0b65-4c4c-ab01-5eee226b1c26
+INFO  [14:18:49.481] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:18:49.511] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:18:49.514] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:50.454] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:51.193] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:51.925] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:52.218] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:52.498] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:52.779] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:53.289] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:53.817] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:54.257] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:54.822] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:55.350] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:55.827] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:18:56.089] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:18:56.350] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:18:56.613] [mlr3] Finished benchmark
+INFO  [14:18:56.648] [bbotk] Result of batch 16:
+INFO  [14:18:56.649] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [14:18:56.649] [bbotk]  polynomial -9.210340  6.907755 -2.608015      3   0.7699249        0      0
+INFO  [14:18:56.649] [bbotk]  polynomial  1.535057  1.535057 -2.608015      5   0.7397783        0      0
+INFO  [14:18:56.649] [bbotk]  polynomial  6.907755 -3.837642 -5.909178      3   0.8035345        0      0
+INFO  [14:18:56.649] [bbotk]  polynomial  6.907755  6.907755 -9.210340      4   0.7487754        0      0
+INFO  [14:18:56.649] [bbotk]      radial  1.535057 -3.837642 -2.608015     NA   0.8664778        0      0
+INFO  [14:18:56.649] [bbotk]  runtime_learners                                uhash
+INFO  [14:18:56.649] [bbotk]             2.397 6ede9f28-b7f2-4d26-9cf8-20a9c83495ab
+INFO  [14:18:56.649] [bbotk]             0.836 4c1c90d5-ef5b-442a-935e-aeb992191033
+INFO  [14:18:56.649] [bbotk]             1.461 75477951-7d35-4de3-9e8e-19cb8570ca86
+INFO  [14:18:56.649] [bbotk]             1.553 8447a1e0-c2bc-4082-b5ee-388ed3ff5231
+INFO  [14:18:56.649] [bbotk]             0.771 57d8d4dc-c7a2-4185-816b-8a549b4bf1e8
+INFO  [14:18:56.649] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:18:56.679] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:18:56.681] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:20:50.114] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:22:43.658] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:31.758] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:32.241] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:32.658] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:33.052] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:33.608] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:34.192] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:34.690] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:34.958] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:35.238] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:35.514] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:36.078] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:36.636] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:37.202] [mlr3] Finished benchmark
+INFO  [14:24:37.237] [bbotk] Result of batch 17:
+INFO  [14:24:37.238] [bbotk]      kernel      cost    gamma  tolerance degree classif.auc warnings errors
+INFO  [14:24:37.238] [bbotk]  polynomial -9.210340 6.907755 -9.2103404      2   0.7567082        0      0
+INFO  [14:24:37.238] [bbotk]  polynomial -3.837642 6.907755  0.6931472      3   0.7694273        0      0
+INFO  [14:24:37.238] [bbotk]  polynomial  6.907755 1.535057 -9.2103404      4   0.7487776        0      0
+INFO  [14:24:37.238] [bbotk]      radial -3.837642 1.535057 -2.6080153     NA   0.5419719        0      0
+INFO  [14:24:37.238] [bbotk]      radial  6.907755 6.907755 -5.9091779     NA   0.5000000        0      0
+INFO  [14:24:37.238] [bbotk]  runtime_learners                                uhash
+INFO  [14:24:37.238] [bbotk]           335.050 598c842f-b993-42a5-85bb-28df66d64834
+INFO  [14:24:37.238] [bbotk]             1.277 3d1fd5b6-ff95-4923-a75b-eba7a98b066e
+INFO  [14:24:37.238] [bbotk]             1.622 9794831a-96dd-4264-85d8-ec4b8a3e6b6f
+INFO  [14:24:37.238] [bbotk]             0.807 e5b81cb1-741d-4b78-a7fc-a9f562cc7460
+INFO  [14:24:37.238] [bbotk]             1.670 4c7c9218-b05d-4b1b-ad63-ddf1885c4394
+INFO  [14:24:37.238] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:24:37.274] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:24:37.277] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:37.463] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:37.652] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:37.846] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:38.029] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:38.228] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:38.428] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:38.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:39.109] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:39.430] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:39.622] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:39.812] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:40.013] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:40.203] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:40.410] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:40.607] [mlr3] Finished benchmark
+INFO  [14:24:40.642] [bbotk] Result of batch 18:
+INFO  [14:24:40.643] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:24:40.643] [bbotk]  polynomial -9.210340 -9.210340 -5.9091779      2   0.6379443        0      0
+INFO  [14:24:40.643] [bbotk]  polynomial -9.210340 -9.210340  0.6931472      2   0.6495465        0      0
+INFO  [14:24:40.643] [bbotk]  polynomial -9.210340  6.907755 -5.9091779      5   0.7400673        0      0
+INFO  [14:24:40.643] [bbotk]  polynomial -3.837642 -9.210340  0.6931472      3   0.8130140        0      0
+INFO  [14:24:40.643] [bbotk]  polynomial -3.837642 -9.210340  0.6931472      5   0.5991737        0      0
+INFO  [14:24:40.643] [bbotk]  runtime_learners                                uhash
+INFO  [14:24:40.643] [bbotk]             0.552 0c3f47a4-09fb-4c77-a3bb-fea25bbbe4a2
+INFO  [14:24:40.643] [bbotk]             0.565 2df924a4-2fb7-46f8-9fb2-8d30897ee868
+INFO  [14:24:40.643] [bbotk]             0.984 8a567909-1d92-4b9a-bb22-a76ccbd42637
+INFO  [14:24:40.643] [bbotk]             0.563 1c3fbbc5-8e71-4872-9b9d-782a18dd85a4
+INFO  [14:24:40.643] [bbotk]             0.578 ef9b0c9c-0a8b-4436-bac7-62ec6de55bf6
+INFO  [14:24:40.643] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:24:40.674] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:24:40.676] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:40.861] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:41.060] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:41.254] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:41.517] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:41.774] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:42.027] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:42.227] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:42.435] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:42.632] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:42.899] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:43.177] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:43.433] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:43.794] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:44.131] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:44.442] [mlr3] Finished benchmark
+INFO  [14:24:44.476] [bbotk] Result of batch 19:
+INFO  [14:24:44.477] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:24:44.477] [bbotk]  polynomial -9.210340 -9.210340  0.6931472      5   0.5117063        0      0
+INFO  [14:24:44.477] [bbotk]  polynomial -3.837642  6.907755  0.6931472      4   0.7486366        0      0
+INFO  [14:24:44.477] [bbotk]  polynomial  6.907755 -9.210340  0.6931472      5   0.6021127        0      0
+INFO  [14:24:44.477] [bbotk]  polynomial  6.907755 -3.837642  0.6931472      3   0.8000300        0      0
+INFO  [14:24:44.477] [bbotk]  polynomial  6.907755  1.535057 -2.6080153      4   0.7487774        0      0
+INFO  [14:24:44.477] [bbotk]  runtime_learners                                uhash
+INFO  [14:24:44.477] [bbotk]             0.560 715ec56f-b6de-4c9c-b0c9-58c3dc057070
+INFO  [14:24:44.477] [bbotk]             0.753 8ed7d2b9-432f-4e72-8f42-ab30fa1b6f4a
+INFO  [14:24:44.477] [bbotk]             0.590 2fd4b04d-783c-499a-b3b7-fae51bd0b9b8
+INFO  [14:24:44.477] [bbotk]             0.782 1906a6ff-8246-4cf0-9515-197879fa67f6
+INFO  [14:24:44.477] [bbotk]             0.993 4b89fde6-883f-4ec5-959d-24f544f407db
+INFO  [14:24:44.478] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:24:44.507] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:24:44.510] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:44.704] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:44.901] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:45.100] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:45.291] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:45.494] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:45.689] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:45.886] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:46.080] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:46.280] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:47.285] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:48.290] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:49.276] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:49.472] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:49.674] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:49.874] [mlr3] Finished benchmark
+INFO  [14:24:49.913] [bbotk] Result of batch 20:
+INFO  [14:24:49.914] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [14:24:49.914] [bbotk]  polynomial -9.210340 -9.210340 -2.608015      4   0.5601931        0      0
+INFO  [14:24:49.914] [bbotk]  polynomial -9.210340 -9.210340 -2.608015      5   0.5970080        0      0
+INFO  [14:24:49.914] [bbotk]  polynomial -3.837642 -9.210340 -9.210340      3   0.8032707        0      0
+INFO  [14:24:49.914] [bbotk]  polynomial -3.837642  1.535057 -2.608015      2   0.7631621        0      0
+INFO  [14:24:49.914] [bbotk]  polynomial  6.907755 -9.210340 -2.608015      5   0.7897709        0      0
+INFO  [14:24:49.914] [bbotk]  runtime_learners                                uhash
+INFO  [14:24:49.914] [bbotk]             0.575 7eda1038-4a38-458a-acd4-2d6f65ccf582
+INFO  [14:24:49.914] [bbotk]             0.572 d255fd74-1b59-4f4f-b0f3-de1dde502540
+INFO  [14:24:49.914] [bbotk]             0.576 907a8a14-43d9-4706-ae15-d2115b36a8dc
+INFO  [14:24:49.914] [bbotk]             2.977 038e37e8-5fae-42a1-83a1-5d2a166db2a1
+INFO  [14:24:49.914] [bbotk]             0.578 3da42239-dabe-4b70-923b-6ddc0e64adbf
+INFO  [14:24:49.915] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:24:49.945] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:24:49.947] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:50.144] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:50.340] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:50.550] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:52.433] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:53.665] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:54.928] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:55.121] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:55.322] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:55.520] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:55.793] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:56.052] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:56.305] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:56.572] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:56.847] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:57.120] [mlr3] Finished benchmark
+INFO  [14:24:57.156] [bbotk] Result of batch 21:
+INFO  [14:24:57.157] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:24:57.157] [bbotk]  polynomial -9.210340 -3.837642 -9.2103404      4   0.6960319        0      0
+INFO  [14:24:57.157] [bbotk]  polynomial -9.210340  6.907755 -5.9091779      3   0.7699717        0      0
+INFO  [14:24:57.157] [bbotk]  polynomial  6.907755 -9.210340 -2.6080153      4   0.6859279        0      0
+INFO  [14:24:57.157] [bbotk]  polynomial  6.907755  6.907755  0.6931472      4   0.7486366        0      0
+INFO  [14:24:57.157] [bbotk]      radial -9.210340  1.535057 -2.6080153     NA   0.6369732        0      0
+INFO  [14:24:57.157] [bbotk]  runtime_learners                                uhash
+INFO  [14:24:57.157] [bbotk]             0.584 b37bf82b-b509-4cf8-84a9-2808de7a8e42
+INFO  [14:24:57.157] [bbotk]             4.359 ecfaa83c-d4be-4631-9d11-335a90250b59
+INFO  [14:24:57.157] [bbotk]             0.574 c9558c7b-ee42-43dd-bb2b-f850b16d3845
+INFO  [14:24:57.157] [bbotk]             0.767 cc7b3254-38ba-478c-a36f-a7d151f969a6
+INFO  [14:24:57.157] [bbotk]             0.796 a4ce8899-8615-4631-be5c-53112b68fdd6
+INFO  [14:24:57.158] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:24:57.187] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:24:57.190] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:57.674] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:58.150] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:58.625] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:58.811] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:59.002] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:24:59.198] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:24:59.591] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:24:59.971] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:00.344] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:00.907] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:01.444] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:01.931] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:02.201] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:02.462] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:02.724] [mlr3] Finished benchmark
+INFO  [14:25:02.760] [bbotk] Result of batch 22:
+INFO  [14:25:02.760] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:25:02.760] [bbotk]      linear  1.535057        NA -2.6080153     NA   0.8255878        0      0
+INFO  [14:25:02.760] [bbotk]  polynomial -9.210340 -9.210340 -5.9091779      3   0.8039646        0      0
+INFO  [14:25:02.760] [bbotk]  polynomial -3.837642  1.535057 -9.2103404      5   0.7400576        0      0
+INFO  [14:25:02.760] [bbotk]  polynomial  1.535057  1.535057 -9.2103404      4   0.7487776        0      0
+INFO  [14:25:02.760] [bbotk]  polynomial  6.907755  1.535057  0.6931472      4   0.7491366        0      0
+INFO  [14:25:02.760] [bbotk]  runtime_learners                                uhash
+INFO  [14:25:02.760] [bbotk]             1.417 67061583-f1ff-49bc-9a24-e6d3a1aec245
+INFO  [14:25:02.760] [bbotk]             0.555 a23225ef-be1a-40b2-9e82-405bcf9a9f7d
+INFO  [14:25:02.760] [bbotk]             1.129 aac239ed-5563-4a43-8728-fdd3804d954f
+INFO  [14:25:02.760] [bbotk]             1.569 2bee642a-fdbb-49f5-b5b3-6eb99faba846
+INFO  [14:25:02.760] [bbotk]             0.775 f3c95cbb-bc7a-49f7-a5b8-bcb4836ffa97
+INFO  [14:25:02.761] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:25:02.791] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:25:02.794] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:02.988] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:03.185] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:03.386] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:03.578] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:03.781] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:03.979] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:04.332] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:04.670] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:04.978] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:05.277] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:05.579] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:05.870] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:06.235] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:06.577] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:06.892] [mlr3] Finished benchmark
+INFO  [14:25:06.928] [bbotk] Result of batch 23:
+INFO  [14:25:06.929] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [14:25:06.929] [bbotk]  polynomial -9.210340 -3.837642 -5.909178      5   0.7897709        0      0
+INFO  [14:25:06.929] [bbotk]  polynomial -9.210340 -3.837642 -2.608015      4   0.6859279        0      0
+INFO  [14:25:06.929] [bbotk]  polynomial -9.210340  1.535057 -2.608015      4   0.7487774        0      0
+INFO  [14:25:06.929] [bbotk]  polynomial -3.837642  1.535057 -2.608015      5   0.7397783        0      0
+INFO  [14:25:06.929] [bbotk]  polynomial  1.535057  1.535057 -2.608015      4   0.7487774        0      0
+INFO  [14:25:06.929] [bbotk]  runtime_learners                                uhash
+INFO  [14:25:06.929] [bbotk]             0.574 855d75c8-16af-451c-ad33-eef8bea2560b
+INFO  [14:25:06.929] [bbotk]             0.575 df961598-afce-4e8b-86e4-8c459ae9bfbf
+INFO  [14:25:06.929] [bbotk]             0.980 126d9d46-6a9b-4586-bd1a-e2c11087de66
+INFO  [14:25:06.929] [bbotk]             0.873 948ee2dc-cb05-4c88-8d35-b6b5c7459fdd
+INFO  [14:25:06.929] [bbotk]             1.001 5fb99a93-378e-4bdd-b0a0-f2561a115087
+INFO  [14:25:06.930] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:25:06.960] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:25:06.963] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:07.260] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:07.455] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:07.653] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:07.872] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:08.096] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:08.320] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:08.533] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:08.755] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:08.974] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:09.184] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:09.398] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:09.612] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:10.225] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:10.826] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:11.425] [mlr3] Finished benchmark
+INFO  [14:25:11.460] [bbotk] Result of batch 24:
+INFO  [14:25:11.461] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [14:25:11.461] [bbotk]  polynomial -9.210340 -9.210340 -9.210340      4   0.5722175        0      0
+INFO  [14:25:11.461] [bbotk]  polynomial  1.535057 -3.837642 -2.608015      2   0.7331243        0      0
+INFO  [14:25:11.461] [bbotk]  polynomial  1.535057 -3.837642 -2.608015      4   0.7921876        0      0
+INFO  [14:25:11.461] [bbotk]  polynomial  1.535057 -3.837642 -2.608015      5   0.8145851        0      0
+INFO  [14:25:11.461] [bbotk]      radial  6.907755  6.907755 -9.210340     NA   0.5000000        0      0
+INFO  [14:25:11.461] [bbotk]  runtime_learners                                uhash
+INFO  [14:25:11.461] [bbotk]             0.674 8140d1e4-03f5-471c-bff9-5a2f8e83d250
+INFO  [14:25:11.461] [bbotk]             0.647 039f6561-07c1-447d-9541-e4935bc594dd
+INFO  [14:25:11.461] [bbotk]             0.638 78a44fdb-4fca-4e68-b622-0b029d57f5d5
+INFO  [14:25:11.461] [bbotk]             0.623 566b7ccb-3345-430f-954d-d12fb07221f4
+INFO  [14:25:11.461] [bbotk]             1.798 869b8523-c907-4d1c-b272-2a146ea9c61e
+INFO  [14:25:11.462] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:25:11.491] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:25:11.494] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:11.676] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:11.860] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:12.041] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:12.235] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:12.431] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:12.630] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:13.081] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:13.509] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:13.898] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:14.083] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:14.274] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:14.466] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:14.663] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:14.867] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:15.068] [mlr3] Finished benchmark
+INFO  [14:25:15.105] [bbotk] Result of batch 25:
+INFO  [14:25:15.106] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:25:15.106] [bbotk]      linear -3.837642        NA -5.9091779     NA   0.8245795        0      0
+INFO  [14:25:15.106] [bbotk]  polynomial -3.837642 -3.837642 -2.6080153      4   0.6881131        0      0
+INFO  [14:25:15.106] [bbotk]  polynomial -3.837642  6.907755 -5.9091779      4   0.7487862        0      0
+INFO  [14:25:15.106] [bbotk]  polynomial  1.535057 -9.210340 -5.9091779      3   0.8032707        0      0
+INFO  [14:25:15.106] [bbotk]  polynomial  1.535057 -9.210340  0.6931472      4   0.6892115        0      0
+INFO  [14:25:15.106] [bbotk]  runtime_learners                                uhash
+INFO  [14:25:15.106] [bbotk]             0.529 60142492-645e-4f73-81bc-736ec91aa9e8
+INFO  [14:25:15.106] [bbotk]             0.571 605e9c42-f689-424d-9337-127ffd39a7a6
+INFO  [14:25:15.106] [bbotk]             1.250 cebfce99-7a3d-401f-88a8-cb47f0ea521d
+INFO  [14:25:15.106] [bbotk]             0.554 7433e745-142b-4cb6-8980-8669fd01de40
+INFO  [14:25:15.106] [bbotk]             0.588 413340ee-e51a-496c-9435-7f56ad05b90f
+INFO  [14:25:15.107] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:25:15.137] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:25:15.139] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:15.324] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:15.519] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:15.710] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:17.721] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:18.969] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:20.216] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:20.623] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:21.038] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:21.398] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:21.660] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:21.941] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:22.212] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:22.490] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:22.761] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:23.030] [mlr3] Finished benchmark
+INFO  [14:25:23.069] [bbotk] Result of batch 26:
+INFO  [14:25:23.070] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:25:23.070] [bbotk]  polynomial -9.210340 -3.837642  0.6931472      5   0.7946072        0      0
+INFO  [14:25:23.070] [bbotk]  polynomial -3.837642  6.907755 -5.9091779      3   0.7699717        0      0
+INFO  [14:25:23.070] [bbotk]  polynomial  6.907755 -3.837642 -9.2103404      4   0.7830311        0      0
+INFO  [14:25:23.070] [bbotk]      radial -9.210340 -9.210340 -9.2103404     NA   0.8023063        0      0
+INFO  [14:25:23.070] [bbotk]      radial  1.535057 -3.837642 -9.2103404     NA   0.8662632        0      0
+INFO  [14:25:23.070] [bbotk]  runtime_learners                                uhash
+INFO  [14:25:23.070] [bbotk]             0.556 f542f6ac-53c1-4a34-b172-ce2e9535cac2
+INFO  [14:25:23.070] [bbotk]             4.488 12b5fd55-1b91-4fea-81e3-715bf2c9d07c
+INFO  [14:25:23.070] [bbotk]             1.168 1dbb07b7-78e8-414c-9956-a262ee31fd9c
+INFO  [14:25:23.070] [bbotk]             0.797 3c34d44f-5403-44ed-a14e-27c383fed9a8
+INFO  [14:25:23.070] [bbotk]             0.802 e53b3f16-e81a-4f5a-a122-8cfdd9ec22bf
+INFO  [14:25:23.071] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:25:23.100] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:25:23.103] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:23.281] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:23.464] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:23.646] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:23.833] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:24.033] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:24.231] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:24.536] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:24.830] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:25.118] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:28.389] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:30.316] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:32.646] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:33.349] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:34.051] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:34.702] [mlr3] Finished benchmark
+INFO  [14:25:34.737] [bbotk] Result of batch 27:
+INFO  [14:25:34.737] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [14:25:34.737] [bbotk]      linear -9.210340        NA -5.909178     NA   0.8186374        0      0
+INFO  [14:25:34.737] [bbotk]  polynomial -9.210340 -9.210340 -9.210340      5   0.5381566        0      0
+INFO  [14:25:34.737] [bbotk]  polynomial -3.837642  6.907755 -2.608015      5   0.7397651        0      0
+INFO  [14:25:34.737] [bbotk]  polynomial  1.535057  6.907755 -9.210340      3   0.7699586        0      0
+INFO  [14:25:34.737] [bbotk]      radial  6.907755 -3.837642 -2.608015     NA   0.8173536        0      0
+INFO  [14:25:34.737] [bbotk]  runtime_learners                                uhash
+INFO  [14:25:34.737] [bbotk]             0.529 314f54a8-6482-4077-8c1d-d0030caaf2ec
+INFO  [14:25:34.737] [bbotk]             0.570 9b3e2027-8dec-40c3-8ce0-90ab820dee78
+INFO  [14:25:34.737] [bbotk]             0.873 4f79af9e-23d8-4d71-9994-852e40c5c228
+INFO  [14:25:34.737] [bbotk]             7.511 89ef7e9b-01c8-48f3-aeee-a7b1923a6edb
+INFO  [14:25:34.737] [bbotk]             2.039 4d02611a-9764-47a6-bc1a-6bfbd6a0c285
+INFO  [14:25:34.738] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:25:34.768] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:25:34.770] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:25:35.336] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:25:35.879] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:25:36.360] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:29:58.037] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:34:21.462] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:38:38.000] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:38:38.182] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:38:38.370] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:38:38.561] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:42:59.751] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:47:20.200] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:51:37.450] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:51:38.494] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:51:39.521] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:51:40.461] [mlr3] Finished benchmark
+INFO  [14:51:40.495] [bbotk] Result of batch 28:
+INFO  [14:51:40.496] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:51:40.496] [bbotk]  polynomial -3.837642  6.907755 -9.2103404      4   0.7487754        0      0
+INFO  [14:51:40.496] [bbotk]  polynomial  1.535057  6.907755  0.6931472      2   0.4884570        0      0
+INFO  [14:51:40.496] [bbotk]  polynomial  6.907755 -9.210340 -2.6080153      3   0.8032707        0      0
+INFO  [14:51:40.496] [bbotk]  polynomial  6.907755  1.535057 -9.2103404      2   0.4672450        0      0
+INFO  [14:51:40.496] [bbotk]      radial  6.907755 -3.837642 -5.9091779     NA   0.8172401        0      0
+INFO  [14:51:40.496] [bbotk]  runtime_learners                                uhash
+INFO  [14:51:40.496] [bbotk]             1.572 c486645a-5772-4894-b453-4189d3989117
+INFO  [14:51:40.496] [bbotk]           781.624 dd87e764-cded-44c1-b07c-2f46a42a3246
+INFO  [14:51:40.496] [bbotk]             0.544 39408acf-aa64-4c0a-9757-c8b2807bd0e9
+INFO  [14:51:40.496] [bbotk]           778.874 c445cc64-22c7-48df-a603-834e90ff9e42
+INFO  [14:51:40.496] [bbotk]             2.995 08b867b2-5546-4bc7-8f8c-787a17c125c9
+INFO  [14:51:40.496] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:51:40.526] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:51:40.528] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:53:33.794] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:55:26.729] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:13.687] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:13.879] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:14.073] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:14.270] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:14.478] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:14.675] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:14.872] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:15.695] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:16.422] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:17.031] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:17.296] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:17.563] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:17.834] [mlr3] Finished benchmark
+INFO  [14:57:17.872] [bbotk] Result of batch 29:
+INFO  [14:57:17.873] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:57:17.873] [bbotk]  polynomial -9.210340  6.907755 -2.6080153      2   0.7594169        0      0
+INFO  [14:57:17.873] [bbotk]  polynomial -3.837642 -3.837642  0.6931472      5   0.5890809        0      0
+INFO  [14:57:17.873] [bbotk]  polynomial  6.907755 -9.210340 -5.9091779      4   0.6859279        0      0
+INFO  [14:57:17.873] [bbotk]  polynomial  6.907755 -3.837642 -9.2103404      3   0.8035146        0      0
+INFO  [14:57:17.873] [bbotk]      radial -9.210340 -9.210340 -2.6080153     NA   0.8023063        0      0
+INFO  [14:57:17.873] [bbotk]  runtime_learners                                uhash
+INFO  [14:57:17.873] [bbotk]           333.142 e465342c-0c6d-4c51-8466-1268c47034d1
+INFO  [14:57:17.873] [bbotk]             0.566 35cb64a6-bb00-4dcb-84e0-66acac92cff0
+INFO  [14:57:17.873] [bbotk]             0.584 48fc2268-30d2-47e0-8cfa-c1ea09e4f8b8
+INFO  [14:57:17.873] [bbotk]             2.144 4840de72-cdf1-41ad-b1ec-1c68b834d1c3
+INFO  [14:57:17.873] [bbotk]             0.784 41a7732c-79ae-4ab3-83f6-5289f5bed040
+INFO  [14:57:17.873] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:57:17.902] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:57:17.905] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:18.089] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:18.280] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:18.476] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:21.498] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:23.496] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:25.464] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:25.658] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:25.854] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:26.049] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:26.998] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:27.762] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:28.475] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:28.664] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:28.859] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:29.046] [mlr3] Finished benchmark
+INFO  [14:57:29.081] [bbotk] Result of batch 30:
+INFO  [14:57:29.082] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:57:29.082] [bbotk]  polynomial -9.210340 -3.837642  0.6931472      4   0.6892115        0      0
+INFO  [14:57:29.082] [bbotk]  polynomial -3.837642  6.907755 -9.2103404      3   0.7699586        0      0
+INFO  [14:57:29.082] [bbotk]  polynomial  1.535057 -9.210340 -5.9091779      5   0.7914187        0      0
+INFO  [14:57:29.082] [bbotk]  polynomial  6.907755  1.535057 -2.6080153      3   0.7700091        0      0
+INFO  [14:57:29.082] [bbotk]      radial  1.535057  1.535057  0.6931472     NA   0.6259150        0      0
+INFO  [14:57:29.082] [bbotk]  runtime_learners                                uhash
+INFO  [14:57:29.082] [bbotk]             0.556 a84fd502-3cda-4d0d-8fb8-0d4252a6d3f4
+INFO  [14:57:29.082] [bbotk]             6.973 4207144e-4ef9-41f3-8bf2-fd6903b800c3
+INFO  [14:57:29.082] [bbotk]             0.572 88d6108f-6917-41ba-8cb9-1921f5b23e55
+INFO  [14:57:29.082] [bbotk]             2.409 22266dc0-f27a-4be6-a9c0-7189a47aed3a
+INFO  [14:57:29.082] [bbotk]             0.557 de6b90ce-95a8-46ff-bb79-6c27899c527e
+INFO  [14:57:29.082] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:57:29.125] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [14:57:29.127] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:29.305] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:29.492] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:29.678] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:29.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:30.216] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:30.483] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:30.646] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:30.812] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:30.982] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [14:57:31.424] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [14:57:31.849] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [14:57:32.232] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:01:51.490] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:06:13.570] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:32.017] [mlr3] Finished benchmark
+INFO  [15:10:32.052] [bbotk] Result of batch 31:
+INFO  [15:10:32.053] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [15:10:32.053] [bbotk]  polynomial -9.210340 -3.837642 -5.9091779      3   0.8032707        0      0
+INFO  [15:10:32.053] [bbotk]  polynomial -9.210340  1.535057  0.6931472      4   0.7491366        0      0
+INFO  [15:10:32.053] [bbotk]  polynomial  1.535057 -3.837642  0.6931472      3   0.8386904        0      0
+INFO  [15:10:32.053] [bbotk]  polynomial  6.907755  1.535057 -5.9091779      4   0.7487709        0      0
+INFO  [15:10:32.053] [bbotk]  polynomial  6.907755  6.907755 -2.6080153      2   0.5115430        0      0
+INFO  [15:10:32.053] [bbotk]  runtime_learners                                uhash
+INFO  [15:10:32.053] [bbotk]             0.535 d0cdb974-82e1-49db-82ed-929cbde0b2ee
+INFO  [15:10:32.053] [bbotk]             0.780 7dffd0e3-192f-4a82-9ef2-78d8189304b0
+INFO  [15:10:32.053] [bbotk]             0.483 28af0b59-5735-4456-8424-1fc6756e739a
+INFO  [15:10:32.053] [bbotk]             1.234 925b9998-c4b8-470c-8be2-13892f13a49e
+INFO  [15:10:32.053] [bbotk]           779.766 0a0b165d-becd-4e70-abd7-a60e85eb7ffb
+INFO  [15:10:32.054] [bbotk] Evaluating 5 configuration(s)
+INFO  [15:10:32.084] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [15:10:32.086] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:32.713] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:33.354] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:33.977] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:34.171] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:34.372] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:34.573] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:34.930] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:35.260] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:35.582] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:35.856] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:36.143] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:36.430] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:36.924] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:37.421] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:37.934] [mlr3] Finished benchmark
+INFO  [15:10:37.973] [bbotk] Result of batch 32:
+INFO  [15:10:37.974] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [15:10:37.974] [bbotk]  polynomial -3.837642  1.535057  0.6931472      2   0.7501036        0      0
+INFO  [15:10:37.974] [bbotk]  polynomial  1.535057 -9.210340 -5.9091779      4   0.6859279        0      0
+INFO  [15:10:37.974] [bbotk]  polynomial  6.907755  6.907755 -5.9091779      5   0.7400673        0      0
+INFO  [15:10:37.974] [bbotk]      radial -3.837642 -3.837642 -5.9091779     NA   0.8460070        0      0
+INFO  [15:10:37.974] [bbotk]      radial -3.837642  6.907755 -5.9091779     NA   0.5000000        0      0
+INFO  [15:10:37.974] [bbotk]  runtime_learners                                uhash
+INFO  [15:10:37.974] [bbotk]             1.872 5ae85823-042d-4c5b-9f7d-602e0a6dcbca
+INFO  [15:10:37.974] [bbotk]             0.577 b28c84b0-8244-4751-a0fe-e1505323af46
+INFO  [15:10:37.974] [bbotk]             0.991 71d21c90-d731-4c7c-ad74-8fb3dc0a69aa
+INFO  [15:10:37.974] [bbotk]             0.831 2d468306-2562-44b5-9781-8d18c38d8b5d
+INFO  [15:10:37.974] [bbotk]             1.487 03e4b09f-2da0-48ef-934f-c69f9a61afd1
+INFO  [15:10:37.975] [bbotk] Evaluating 5 configuration(s)
+INFO  [15:10:38.006] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [15:10:38.008] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:38.237] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:38.469] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:38.705] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:39.301] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:39.867] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:40.330] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:40.605] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:40.871] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:41.123] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:41.317] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:41.512] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:41.711] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:10:41.936] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:10:42.163] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:10:42.390] [mlr3] Finished benchmark
+INFO  [15:10:42.431] [bbotk] Result of batch 33:
+INFO  [15:10:42.432] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [15:10:42.432] [bbotk]  polynomial -9.210340  1.535057 -9.2103404      2   0.7322420        0      0
+INFO  [15:10:42.432] [bbotk]  polynomial  1.535057  6.907755 -9.2103404      4   0.7487754        0      0
+INFO  [15:10:42.432] [bbotk]  polynomial  1.535057  6.907755  0.6931472      4   0.7486366        0      0
+INFO  [15:10:42.432] [bbotk]  polynomial  6.907755 -9.210340 -9.2103404      4   0.6859279        0      0
+INFO  [15:10:42.432] [bbotk]      radial -9.210340  6.907755 -2.6080153     NA   0.5000000        0      0
+INFO  [15:10:42.432] [bbotk]  runtime_learners                                uhash
+INFO  [15:10:42.432] [bbotk]             0.674 84f2305f-4129-4abd-b860-105c1d75ec73
+INFO  [15:10:42.432] [bbotk]             1.606 2ae2ccd2-09d1-4da4-abf0-0cccdb3f7918
+INFO  [15:10:42.432] [bbotk]             0.775 9e5b57ef-3e36-44e6-924b-9d467b418b59
+INFO  [15:10:42.432] [bbotk]             0.569 a3e395f1-181c-4af1-9b6a-2eb017e17b2c
+INFO  [15:10:42.432] [bbotk]             0.663 d5f002b4-f4cc-4e89-8139-d3ff06c8f4f8
+INFO  [15:10:42.432] [bbotk] Evaluating 5 configuration(s)
+INFO  [15:10:42.462] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [15:10:42.465] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:11:21.310] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:11:59.699] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:37.300] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:37.488] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:37.688] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:37.887] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:38.145] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:38.386] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:38.624] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:38.818] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:39.013] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:39.214] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:42.374] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:44.399] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:46.360] [mlr3] Finished benchmark
+INFO  [15:12:46.395] [bbotk] Result of batch 34:
+INFO  [15:12:46.396] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [15:12:46.396] [bbotk]      linear  6.907755        NA -9.2103404     NA   0.8155700        0      0
+INFO  [15:12:46.396] [bbotk]  polynomial -9.210340 -3.837642 -9.2103404      2   0.6643761        0      0
+INFO  [15:12:46.396] [bbotk]  polynomial -9.210340  1.535057  0.6931472      5   0.7345749        0      0
+INFO  [15:12:46.396] [bbotk]  polynomial -3.837642 -9.210340 -2.6080153      5   0.7890818        0      0
+INFO  [15:12:46.396] [bbotk]  polynomial  6.907755  6.907755 -9.2103404      3   0.7699586        0      0
+INFO  [15:12:46.396] [bbotk]  runtime_learners                                uhash
+INFO  [15:12:46.396] [bbotk]           114.815 dee4891a-85d6-4900-9bbe-755a3c6fb2b1
+INFO  [15:12:46.396] [bbotk]             0.569 08e62483-6a1d-4d3c-b8f4-0ce8f33da5e6
+INFO  [15:12:46.396] [bbotk]             0.720 4da3cf6b-20b1-4fb8-a44f-f5de8132f606
+INFO  [15:12:46.396] [bbotk]             0.573 03857818-6a2f-422c-ab1a-4355dcfdda17
+INFO  [15:12:46.396] [bbotk]             7.127 7c002d8b-6180-4a96-ae5b-0b63fbd47bad
+INFO  [15:12:46.397] [bbotk] Evaluating 5 configuration(s)
+INFO  [15:12:46.426] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [15:12:46.429] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:46.620] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:46.822] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:47.016] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:47.432] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:47.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:48.181] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:48.376] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:48.575] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:48.773] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:48.967] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:12:49.161] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:12:49.356] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:12:56.911] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:13:04.804] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:13:11.643] [mlr3] Finished benchmark
+INFO  [15:13:11.678] [bbotk] Result of batch 35:
+INFO  [15:13:11.679] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [15:13:11.679] [bbotk]  polynomial -9.210340 -9.210340 -9.210340      2   0.6379443        0      0
+INFO  [15:13:11.679] [bbotk]  polynomial -9.210340  6.907755 -9.210340      5   0.7400587        0      0
+INFO  [15:13:11.679] [bbotk]  polynomial -3.837642 -3.837642 -2.608015      5   0.7954414        0      0
+INFO  [15:13:11.679] [bbotk]  polynomial  6.907755 -9.210340 -9.210340      3   0.8146696        0      0
+INFO  [15:13:11.679] [bbotk]  polynomial  6.907755 -3.837642 -9.210340      2   0.7629872        0      0
+INFO  [15:13:11.679] [bbotk]  runtime_learners                                uhash
+INFO  [15:13:11.679] [bbotk]             0.568 e138c14b-661b-4d6b-a2a4-fd8ca1ce7ae2
+INFO  [15:13:11.679] [bbotk]             1.147 f4a1501a-236f-4f1f-b2b5-feb61da70a6f
+INFO  [15:13:11.679] [bbotk]             0.574 635d100a-fe73-472d-8f01-b4e768ebee11
+INFO  [15:13:11.679] [bbotk]             0.564 85ae2fc1-132e-4697-8cbf-abe537b1dd21
+INFO  [15:13:11.679] [bbotk]            22.266 d3d62990-becd-42cb-8efa-8345b68a3307
+INFO  [15:13:11.680] [bbotk] Evaluating 5 configuration(s)
+INFO  [15:13:11.710] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [15:13:11.712] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:13:12.077] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:13:12.454] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:13:12.789] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:13:13.233] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:13:13.658] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:13:14.050] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:13:14.495] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:13:14.922] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:13:15.310] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:13:15.508] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:13:15.713] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:13:15.920] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:17:35.516] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:21:59.503] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:26:20.089] [mlr3] Finished benchmark
+INFO  [15:26:20.125] [bbotk] Result of batch 36:
+INFO  [15:26:20.126] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [15:26:20.126] [bbotk]  polynomial -9.210340  1.535057 -2.6080153      3   0.8035651        0      0
+INFO  [15:26:20.126] [bbotk]  polynomial -3.837642  1.535057 -5.9091779      4   0.7487709        0      0
+INFO  [15:26:20.126] [bbotk]  polynomial  1.535057  6.907755 -5.9091779      4   0.7487862        0      0
+INFO  [15:26:20.126] [bbotk]  polynomial  6.907755 -9.210340 -9.2103404      5   0.7897709        0      0
+INFO  [15:26:20.126] [bbotk]  polynomial  6.907755  1.535057  0.6931472      2   0.4672450        0      0
+INFO  [15:26:20.126] [bbotk]  runtime_learners                                uhash
+INFO  [15:26:20.126] [bbotk]             1.058 ba32fc87-fb1e-48ea-b92a-9744035b3a1d
+INFO  [15:26:20.126] [bbotk]             1.243 36c29ff2-2d5d-4ea8-b26f-ad0346863930
+INFO  [15:26:20.126] [bbotk]             1.243 bed97143-2b9c-45f3-96d7-8ca951e29ad2
+INFO  [15:26:20.126] [bbotk]             0.590 0d754658-6107-4b8c-ad09-6fd8436dc54a
+INFO  [15:26:20.126] [bbotk]           784.149 df8e985d-ae3e-4c42-bafa-8a7665f241fe
+INFO  [15:26:20.127] [bbotk] Evaluating 5 configuration(s)
+INFO  [15:26:20.157] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [15:26:20.159] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:26:20.851] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:26:21.455] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:26:22.147] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:30:45.118] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:35:10.346] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:39:31.634] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:43:54.392] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:48:19.455] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:52:41.149] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:52:41.344] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:52:41.543] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:52:41.745] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:52:42.009] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:52:42.269] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:52:42.531] [mlr3] Finished benchmark
+INFO  [15:52:42.570] [bbotk] Result of batch 37:
+INFO  [15:52:42.570] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [15:52:42.570] [bbotk]      linear  1.535057        NA -9.2103404     NA   0.8254979        0      0
+INFO  [15:52:42.570] [bbotk]  polynomial -3.837642  6.907755 -9.2103404      2   0.4941957        0      0
+INFO  [15:52:42.570] [bbotk]  polynomial -3.837642  6.907755  0.6931472      2   0.5115430        0      0
+INFO  [15:52:42.570] [bbotk]  polynomial  1.535057 -9.210340 -9.2103404      5   0.7914219        0      0
+INFO  [15:52:42.570] [bbotk]  polynomial  6.907755 -3.837642 -2.6080153      5   0.8026393        0      0
+INFO  [15:52:42.570] [bbotk]  runtime_learners                                uhash
+INFO  [15:52:42.570] [bbotk]             1.968 12901fe4-32c1-4984-a496-0dcddb2ca7f2
+INFO  [15:52:42.570] [bbotk]           789.469 7731280c-bb9e-47a6-bbad-97f149cd7606
+INFO  [15:52:42.570] [bbotk]           789.493 8c1c0659-88db-4168-a0ed-ad2cb8731311
+INFO  [15:52:42.570] [bbotk]             0.577 4e8a2505-c79f-4bb4-8772-de784b035468
+INFO  [15:52:42.570] [bbotk]             0.766 f52a3541-8539-4baf-a8fb-45dda1fa44df
+INFO  [15:52:42.571] [bbotk] Evaluating 5 configuration(s)
+INFO  [15:52:42.601] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [15:52:42.604] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:52:42.791] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:52:42.977] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:52:43.268] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:52:43.459] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:52:43.659] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:52:43.857] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:52:45.863] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:52:47.707] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:52:49.509] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:52:49.689] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:52:49.875] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [15:52:50.055] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [15:54:45.268] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [15:57:15.243] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:17.958] [mlr3] Finished benchmark
+INFO  [16:00:18.013] [bbotk] Result of batch 38:
+INFO  [16:00:18.015] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:00:18.015] [bbotk]      linear -3.837642        NA -2.6080153     NA   0.8241509        0      0
+INFO  [16:00:18.015] [bbotk]  polynomial -9.210340 -3.837642 -2.6080153      5   0.7897709        0      0
+INFO  [16:00:18.015] [bbotk]  polynomial -3.837642  1.535057 -5.9091779      2   0.7630926        0      0
+INFO  [16:00:18.015] [bbotk]  polynomial  1.535057 -3.837642  0.6931472      4   0.7601682        0      0
+INFO  [16:00:18.015] [bbotk]  polynomial  1.535057  1.535057 -5.9091779      2   0.7562914        0      0
+INFO  [16:00:18.015] [bbotk]  runtime_learners                                uhash
+INFO  [16:00:18.015] [bbotk]             0.647 890ae2d2-6e3a-40b1-9122-f379fcd82391
+INFO  [16:00:18.015] [bbotk]             0.573 01eaebba-a548-43f2-bef4-af2727ec4095
+INFO  [16:00:18.015] [bbotk]             5.635 6f1545e4-b6c4-4436-9a23-f8e604f25ec1
+INFO  [16:00:18.015] [bbotk]             0.530 6774fe7e-04a0-4ec3-a0d7-40b498e5bc4c
+INFO  [16:00:18.015] [bbotk]           447.883 278fd8b3-caf6-47f2-a1d1-ccd374264e9f
+INFO  [16:00:18.016] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:00:18.065] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:00:18.070] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:18.906] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:19.616] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:20.315] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:20.806] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:21.276] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:21.745] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:22.151] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:22.573] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:22.996] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:23.399] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:23.808] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:24.227] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:27.354] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:30.472] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:33.612] [mlr3] Finished benchmark
+INFO  [16:00:33.668] [bbotk] Result of batch 39:
+INFO  [16:00:33.669] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:00:33.669] [bbotk]  polynomial -9.210340  6.907755  0.6931472      3   0.7694273        0      0
+INFO  [16:00:33.669] [bbotk]  polynomial -9.210340  6.907755  0.6931472      4   0.7486366        0      0
+INFO  [16:00:33.669] [bbotk]  polynomial  1.535057 -3.837642 -9.2103404      5   0.8153109        0      0
+INFO  [16:00:33.669] [bbotk]  polynomial  1.535057 -3.837642 -5.9091779      2   0.7322545        0      0
+INFO  [16:00:33.669] [bbotk]      radial  1.535057  6.907755 -5.9091779     NA   0.5000000        0      0
+INFO  [16:00:33.669] [bbotk]  runtime_learners                                uhash
+INFO  [16:00:33.669] [bbotk]             2.220 052152d3-195c-4a79-a930-b5a2bed929ca
+INFO  [16:00:33.669] [bbotk]             1.406 e740e32d-ed0a-47a2-b3b4-83358ab00f6c
+INFO  [16:00:33.669] [bbotk]             1.228 c1b31016-33d3-4d8e-a4b7-9c9c5d3f82fb
+INFO  [16:00:33.669] [bbotk]             1.207 b1b8f8fc-0b8b-4fd8-9a8a-774955097a87
+INFO  [16:00:33.669] [bbotk]             9.360 aa38683b-9ea6-4786-8b51-ee73652fe84c
+INFO  [16:00:33.670] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:00:33.720] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:00:33.724] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:34.082] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:34.466] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:34.836] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:35.336] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:35.817] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:36.249] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:36.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:37.590] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:38.231] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:39.085] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:39.810] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:40.514] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:43.586] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:46.614] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:49.688] [mlr3] Finished benchmark
+INFO  [16:00:49.750] [bbotk] Result of batch 40:
+INFO  [16:00:49.752] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:00:49.752] [bbotk]  polynomial -9.210340 -3.837642 -5.9091779      4   0.6859279        0      0
+INFO  [16:00:49.752] [bbotk]  polynomial -9.210340  1.535057  0.6931472      3   0.8000773        0      0
+INFO  [16:00:49.752] [bbotk]  polynomial  1.535057  1.535057 -9.2103404      5   0.7400587        0      0
+INFO  [16:00:49.752] [bbotk]  polynomial  1.535057  1.535057  0.6931472      3   0.7679955        0      0
+INFO  [16:00:49.752] [bbotk]      radial  1.535057  6.907755 -2.6080153     NA   0.5000000        0      0
+INFO  [16:00:49.752] [bbotk]  runtime_learners                                uhash
+INFO  [16:00:49.752] [bbotk]             1.087 11eb94fc-b80b-478c-99ab-729441445452
+INFO  [16:00:49.752] [bbotk]             1.388 4b7ffe86-7a07-4f87-8561-2a5280b15888
+INFO  [16:00:49.752] [bbotk]             1.958 c05bbcbf-ba3b-4dba-8a51-269d67dbf31d
+INFO  [16:00:49.752] [bbotk]             2.259 f8d19d15-5eda-4f16-86f0-6f34f1a5cf50
+INFO  [16:00:49.752] [bbotk]             9.148 1133c64f-45ee-4ebe-b939-f219986e43cd
+INFO  [16:00:49.753] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:00:49.803] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:00:49.807] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:50.838] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:51.839] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:52.673] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:53.032] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:53.402] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:53.781] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:54.135] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:54.505] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:54.874] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:55.499] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:56.087] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:56.664] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:57.307] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:00:57.917] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:00:58.492] [mlr3] Finished benchmark
+INFO  [16:00:58.549] [bbotk] Result of batch 41:
+INFO  [16:00:58.550] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:00:58.550] [bbotk]  polynomial -9.210340  6.907755 -9.2103404      4   0.7487754        0      0
+INFO  [16:00:58.550] [bbotk]  polynomial -3.837642 -3.837642  0.6931472      4   0.6935162        0      0
+INFO  [16:00:58.550] [bbotk]  polynomial  1.535057 -9.210340 -2.6080153      5   0.7914219        0      0
+INFO  [16:00:58.550] [bbotk]  polynomial  1.535057  6.907755 -5.9091779      5   0.7400683        0      0
+INFO  [16:00:58.550] [bbotk]  polynomial  1.535057  6.907755 -2.6080153      4   0.7487481        0      0
+INFO  [16:00:58.550] [bbotk]  runtime_learners                                uhash
+INFO  [16:00:58.550] [bbotk]             2.840 cabf7126-ee30-4d06-9d32-aae358392b54
+INFO  [16:00:58.550] [bbotk]             1.083 c1dfa539-a6d7-4cf5-a38b-5e9c783dff6b
+INFO  [16:00:58.550] [bbotk]             1.068 8e0a8413-810f-41b5-91e8-d41805769932
+INFO  [16:00:58.550] [bbotk]             1.767 a532319b-6046-42cd-a322-5464781bdeb7
+INFO  [16:00:58.550] [bbotk]             1.803 7f928780-f07d-42d7-af80-8af7640faf13
+INFO  [16:00:58.551] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:00:58.602] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:00:58.606] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:00:59.548] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:00.459] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:01.387] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:01.727] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:02.081] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:02.428] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:02.799] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:03.176] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:03.545] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:05.135] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:06.457] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:07.754] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:08.234] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:08.683] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:09.151] [mlr3] Finished benchmark
+INFO  [16:01:09.208] [bbotk] Result of batch 42:
+INFO  [16:01:09.209] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:01:09.209] [bbotk]      linear  1.535057        NA -5.9091779     NA   0.8255058        0      0
+INFO  [16:01:09.209] [bbotk]  polynomial -9.210340 -3.837642 -2.6080153      2   0.6379443        0      0
+INFO  [16:01:09.209] [bbotk]  polynomial -3.837642 -9.210340 -2.6080153      4   0.6883841        0      0
+INFO  [16:01:09.209] [bbotk]  polynomial  1.535057  1.535057 -2.6080153      3   0.7700091        0      0
+INFO  [16:01:09.209] [bbotk]  polynomial  6.907755  1.535057  0.6931472      5   0.7345759        0      0
+INFO  [16:01:09.209] [bbotk]  runtime_learners                                uhash
+INFO  [16:01:09.209] [bbotk]             2.755 b447d095-fed5-4a42-9c8c-fa0ea8484594
+INFO  [16:01:09.209] [bbotk]             1.014 fa326131-8836-47ae-8b85-112a4e98fb54
+INFO  [16:01:09.209] [bbotk]             1.093 6b7df91f-489e-45e9-a0f9-cb718cb79427
+INFO  [16:01:09.209] [bbotk]             4.184 1e453d44-6bce-47d3-b19f-c27ff0efabe2
+INFO  [16:01:09.209] [bbotk]             1.371 d1a46646-bda9-49ab-970c-74e24390843b
+INFO  [16:01:09.210] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:01:09.260] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:01:09.264] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:09.597] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:09.953] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:10.296] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:10.636] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:10.992] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:11.341] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:14.400] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:16.635] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:18.858] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:20.055] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:21.251] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:22.439] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:22.928] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:23.402] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:23.877] [mlr3] Finished benchmark
+INFO  [16:01:23.942] [bbotk] Result of batch 43:
+INFO  [16:01:23.943] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:01:23.943] [bbotk]  polynomial -9.210340 -9.210340 -2.6080153      3   0.8039657        0      0
+INFO  [16:01:23.943] [bbotk]  polynomial -9.210340 -3.837642  0.6931472      2   0.6495465        0      0
+INFO  [16:01:23.943] [bbotk]  polynomial -3.837642  1.535057 -5.9091779      3   0.7699610        0      0
+INFO  [16:01:23.943] [bbotk]      radial  1.535057  1.535057 -9.2103404     NA   0.6903304        0      0
+INFO  [16:01:23.943] [bbotk]      radial  6.907755 -9.210340  0.6931472     NA   0.8231066        0      0
+INFO  [16:01:23.943] [bbotk]  runtime_learners                                uhash
+INFO  [16:01:23.943] [bbotk]             1.006 0063e295-e62c-4ad3-bd08-c891efda6f66
+INFO  [16:01:23.943] [bbotk]             1.019 93f2e6bc-c2eb-44c7-93cc-cbd4d6c0f978
+INFO  [16:01:23.943] [bbotk]             7.491 2bd9f5de-91f9-4203-bfb2-bd8db437f921
+INFO  [16:01:23.943] [bbotk]             3.556 efb757dd-0d2c-4edc-8985-ac4b67188180
+INFO  [16:01:23.943] [bbotk]             1.411 a8ad9f04-8283-42b1-983a-52151eddad81
+INFO  [16:01:23.944] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:01:23.994] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:01:23.998] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:24.592] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:25.176] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:25.753] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:31.978] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:35.474] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:39.395] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:39.909] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:40.434] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:40.947] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:42.404] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:43.917] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:45.418] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:45.925] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:46.446] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:46.974] [mlr3] Finished benchmark
+INFO  [16:01:47.030] [bbotk] Result of batch 44:
+INFO  [16:01:47.032] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [16:01:47.032] [bbotk]  polynomial -9.210340  1.535057 -5.909178      5   0.7400586        0      0
+INFO  [16:01:47.032] [bbotk]  polynomial -3.837642  1.535057 -9.210340      3   0.7699456        0      0
+INFO  [16:01:47.032] [bbotk]      radial -9.210340 -9.210340 -5.909178     NA   0.8023063        0      0
+INFO  [16:01:47.032] [bbotk]      radial -9.210340  6.907755 -9.210340     NA   0.5000000        0      0
+INFO  [16:01:47.032] [bbotk]      radial  1.535057 -9.210340 -2.608015     NA   0.8170920        0      0
+INFO  [16:01:47.032] [bbotk]  runtime_learners                                uhash
+INFO  [16:01:47.032] [bbotk]             1.728 bd0a5098-5b26-42e4-b8d7-38d81467cb34
+INFO  [16:01:47.032] [bbotk]            13.617 e9476d93-e03b-48f9-8d68-ae486487e258
+INFO  [16:01:47.032] [bbotk]             1.519 5da2a76c-737a-4a4b-bc64-f4c7019fea30
+INFO  [16:01:47.032] [bbotk]             4.443 919fb9ad-6336-4757-ab8b-512a9c76dde4
+INFO  [16:01:47.032] [bbotk]             1.529 ea4d10ce-a42b-412c-b39a-e43b1b8e45c9
+INFO  [16:01:47.033] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:01:47.083] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:01:47.087] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:47.430] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:47.784] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:48.121] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:01:48.522] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:01:48.939] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:01:49.349] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:05:01.192] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:08:11.749] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:12.531] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:14.393] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:16.255] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:18.061] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:19.188] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:20.313] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:21.452] [mlr3] Finished benchmark
+INFO  [16:11:21.511] [bbotk] Result of batch 45:
+INFO  [16:11:21.512] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [16:11:21.512] [bbotk]      linear -3.837642        NA -9.210340     NA   0.8245246        0      0
+INFO  [16:11:21.512] [bbotk]  polynomial -3.837642 -3.837642 -9.210340      5   0.8021987        0      0
+INFO  [16:11:21.512] [bbotk]  polynomial  1.535057  1.535057 -9.210340      2   0.7562914        0      0
+INFO  [16:11:21.512] [bbotk]  polynomial  6.907755 -3.837642 -2.608015      2   0.7629319        0      0
+INFO  [16:11:21.512] [bbotk]      radial -3.837642  1.535057 -9.210340     NA   0.6902264        0      0
+INFO  [16:11:21.512] [bbotk]  runtime_learners                                uhash
+INFO  [16:11:21.512] [bbotk]             1.006 7f5d5817-1ae1-4288-824a-70e23ed10549
+INFO  [16:11:21.512] [bbotk]             1.202 e3dc7a81-cb24-4731-bcd6-cd05ac45fef6
+INFO  [16:11:21.512] [bbotk]           563.156 b74cfcaf-a3f4-4ff8-9c80-7bc65f87fb27
+INFO  [16:11:21.512] [bbotk]             5.502 c536dbc2-8620-4234-9df7-3303aaf806a1
+INFO  [16:11:21.512] [bbotk]             3.363 4bd98fde-f106-4fae-826d-3fbbcc22136e
+INFO  [16:11:21.513] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:11:21.565] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:11:21.569] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:21.930] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:22.310] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:22.701] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:23.050] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:23.399] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:23.747] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:24.664] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:25.406] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:26.130] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:26.980] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:27.788] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:28.486] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:29.009] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:29.540] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:30.067] [mlr3] Finished benchmark
+INFO  [16:11:30.132] [bbotk] Result of batch 46:
+INFO  [16:11:30.133] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:11:30.133] [bbotk]  polynomial -3.837642 -9.210340 -9.2103404      5   0.7873408        0      0
+INFO  [16:11:30.133] [bbotk]  polynomial  1.535057 -9.210340  0.6931472      3   0.6101740        0      0
+INFO  [16:11:30.133] [bbotk]  polynomial  6.907755  1.535057  0.6931472      3   0.7679955        0      0
+INFO  [16:11:30.133] [bbotk]  polynomial  6.907755  6.907755 -5.9091779      4   0.7487862        0      0
+INFO  [16:11:30.133] [bbotk]      radial -3.837642 -3.837642 -2.6080153     NA   0.8370645        0      0
+INFO  [16:11:30.133] [bbotk]  runtime_learners                                uhash
+INFO  [16:11:30.133] [bbotk]             1.105 793c721b-5164-43b0-bc03-f53b8229703b
+INFO  [16:11:30.133] [bbotk]             1.021 821fd779-8c80-4b5e-88e1-a3c962ec70b0
+INFO  [16:11:30.133] [bbotk]             2.355 92b4cbc8-8584-41a3-b58b-a05cc7bb9500
+INFO  [16:11:30.133] [bbotk]             2.330 6f0b0d2a-5071-47d4-824b-504a441049ab
+INFO  [16:11:30.133] [bbotk]             1.552 edea8741-96cf-42d7-88ed-28e972e53cbf
+INFO  [16:11:30.135] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:11:30.189] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:11:30.194] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:30.568] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:30.949] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:11:31.344] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:11:44.009] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:11:54.591] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:12:06.666] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:19:10.889] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:26:23.905] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:21.076] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:21.682] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:22.260] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:22.824] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:24.264] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:25.747] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:27.222] [mlr3] Finished benchmark
+INFO  [16:33:27.402] [bbotk] Result of batch 47:
+INFO  [16:33:27.404] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:33:27.404] [bbotk]  polynomial -9.210340 -3.837642 -9.2103404      5   0.7984631        0      0
+INFO  [16:33:27.404] [bbotk]  polynomial -3.837642  1.535057 -9.2103404      2   0.7629544        0      0
+INFO  [16:33:27.404] [bbotk]  polynomial  6.907755  1.535057 -5.9091779      2   0.4672450        0      0
+INFO  [16:33:27.404] [bbotk]  polynomial  6.907755  1.535057 -5.9091779      5   0.7400586        0      0
+INFO  [16:33:27.404] [bbotk]      radial  6.907755  6.907755  0.6931472     NA   0.5000000        0      0
+INFO  [16:33:27.404] [bbotk]  runtime_learners                                uhash
+INFO  [16:33:27.404] [bbotk]             1.124 92840206-b3d2-47a3-a236-7f3019905276
+INFO  [16:33:27.404] [bbotk]            35.293 e506eac8-179f-4500-bf66-af7a124f2b3b
+INFO  [16:33:27.404] [bbotk]          1274.382 4d598bd4-fbf3-47f2-96ea-eeffc035b06e
+INFO  [16:33:27.404] [bbotk]             1.720 755b02b3-8403-4896-9a07-6466c25e1693
+INFO  [16:33:27.404] [bbotk]             4.371 9ce0a861-4153-4afa-ade7-0659656469c0
+INFO  [16:33:27.405] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:33:27.455] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:33:27.459] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:27.795] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:28.138] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:28.477] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:28.995] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:29.543] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:30.058] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:30.406] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:30.771] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:31.135] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:31.679] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:32.220] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:32.725] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:33.237] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:33.761] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:34.285] [mlr3] Finished benchmark
+INFO  [16:33:34.341] [bbotk] Result of batch 48:
+INFO  [16:33:34.342] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:33:34.342] [bbotk]  polynomial -9.210340 -9.210340 -9.2103404      3   0.8039635        0      0
+INFO  [16:33:34.342] [bbotk]  polynomial -9.210340  1.535057 -2.6080153      5   0.7397804        0      0
+INFO  [16:33:34.342] [bbotk]  polynomial  1.535057 -9.210340  0.6931472      5   0.5910919        0      0
+INFO  [16:33:34.342] [bbotk]  polynomial  6.907755  1.535057 -2.6080153      5   0.7397804        0      0
+INFO  [16:33:34.342] [bbotk]      radial -9.210340  1.535057 -5.9091779     NA   0.6370310        0      0
+INFO  [16:33:34.342] [bbotk]  runtime_learners                                uhash
+INFO  [16:33:34.342] [bbotk]             0.995 762eb68d-3e2f-40bc-827c-fd8c89befaac
+INFO  [16:33:34.342] [bbotk]             1.556 1d9adfd0-f4fb-4b06-b131-d21a22ef4b9c
+INFO  [16:33:34.342] [bbotk]             1.052 8dab9ea7-4c4c-4e72-8112-103a57339da8
+INFO  [16:33:34.342] [bbotk]             1.567 5405b381-f7f1-45e7-bdf2-426000afcf11
+INFO  [16:33:34.342] [bbotk]             1.533 9b3d88dc-d64c-4335-a329-96901dd6babe
+INFO  [16:33:34.343] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:33:34.399] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:33:34.404] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:34.854] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:35.305] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:35.749] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:36.086] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:36.434] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:36.782] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:37.118] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:37.467] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:37.814] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:41.137] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:43.288] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:45.490] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:46.155] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:46.827] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:47.403] [mlr3] Finished benchmark
+INFO  [16:33:47.465] [bbotk] Result of batch 49:
+INFO  [16:33:47.466] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:33:47.466] [bbotk]  polynomial -3.837642  1.535057  0.6931472      5   0.7345749        0      0
+INFO  [16:33:47.466] [bbotk]  polynomial  1.535057 -9.210340 -2.6080153      2   0.6379443        0      0
+INFO  [16:33:47.466] [bbotk]  polynomial  1.535057 -9.210340  0.6931472      2   0.5529471        0      0
+INFO  [16:33:47.466] [bbotk]  polynomial  1.535057  1.535057 -5.9091779      3   0.7699610        0      0
+INFO  [16:33:47.466] [bbotk]  polynomial  6.907755 -3.837642 -2.6080153      3   0.8033886        0      0
+INFO  [16:33:47.466] [bbotk]  runtime_learners                                uhash
+INFO  [16:33:47.466] [bbotk]             1.320 252bfa90-0669-46f5-acaa-d53e4193875d
+INFO  [16:33:47.466] [bbotk]             1.010 3ca9055c-472d-4184-b082-03d5acdbb85c
+INFO  [16:33:47.466] [bbotk]             1.007 2055ed9e-1dd4-41e1-8912-268b1cda32ae
+INFO  [16:33:47.466] [bbotk]             7.649 de4607a0-b342-46e5-a7a4-50f3ac860ec5
+INFO  [16:33:47.466] [bbotk]             1.888 4c634f0b-a562-402e-b8a1-8ffc2c8d78c8
+INFO  [16:33:47.468] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:33:47.518] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:33:47.522] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:48.059] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:48.566] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:49.065] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:49.466] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:49.882] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:50.307] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:50.643] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:50.983] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:51.333] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:51.980] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:52.596] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:53.160] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:53.526] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:53.901] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:54.264] [mlr3] Finished benchmark
+INFO  [16:33:54.321] [bbotk] Result of batch 50:
+INFO  [16:33:54.322] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [16:33:54.322] [bbotk]  polynomial -9.210340  6.907755 -2.608015      5   0.7397651        0      0
+INFO  [16:33:54.322] [bbotk]  polynomial -3.837642 -3.837642 -5.909178      4   0.7301838        0      0
+INFO  [16:33:54.322] [bbotk]  polynomial -3.837642 -3.837642 -2.608015      3   0.8066230        0      0
+INFO  [16:33:54.322] [bbotk]  polynomial -3.837642  1.535057 -2.608015      4   0.7487774        0      0
+INFO  [16:33:54.322] [bbotk]  polynomial  1.535057 -3.837642 -9.210340      3   0.8437526        0      0
+INFO  [16:33:54.322] [bbotk]  runtime_learners                                uhash
+INFO  [16:33:54.322] [bbotk]             1.518 c221e4d8-11cc-4213-b178-6dba2f2f24dd
+INFO  [16:33:54.322] [bbotk]             1.218 2f5d6477-dd7c-4f76-a0ed-9f90b99370a2
+INFO  [16:33:54.322] [bbotk]             0.999 81ed4001-465f-4027-938e-5d283a31331b
+INFO  [16:33:54.322] [bbotk]             1.802 f2538887-0d2c-4c9e-b1cc-b9182e74e719
+INFO  [16:33:54.322] [bbotk]             1.080 d4a7a916-0a44-464a-ae40-5ed56cafb581
+INFO  [16:33:54.324] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:33:54.374] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:33:54.378] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:33:54.802] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:33:55.227] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:33:55.673] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:40:58.029] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:47:59.516] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:54:56.928] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:54:57.364] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:54:57.809] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:54:58.254] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:54:59.105] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:54:59.833] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:55:00.541] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:55:01.032] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:55:01.553] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:55:02.070] [mlr3] Finished benchmark
+INFO  [16:55:02.127] [bbotk] Result of batch 51:
+INFO  [16:55:02.128] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:55:02.128] [bbotk]  polynomial -3.837642 -3.837642 -9.2103404      4   0.7327095        0      0
+INFO  [16:55:02.128] [bbotk]  polynomial -3.837642  6.907755 -5.9091779      2   0.4820502        0      0
+INFO  [16:55:02.128] [bbotk]  polynomial  1.535057 -3.837642 -9.2103404      4   0.7910689        0      0
+INFO  [16:55:02.128] [bbotk]  polynomial  1.535057  6.907755  0.6931472      3   0.7694273        0      0
+INFO  [16:55:02.128] [bbotk]      radial -9.210340 -3.837642  0.6931472     NA   0.8389307        0      0
+INFO  [16:55:02.128] [bbotk]  runtime_learners                                uhash
+INFO  [16:55:02.128] [bbotk]             1.262 33041536-221f-48e6-b8b2-104abd0aba32
+INFO  [16:55:02.128] [bbotk]          1261.228 e631a660-de29-4a2f-9168-6f0e074012f6
+INFO  [16:55:02.128] [bbotk]             1.301 16f1f2a5-0d09-42fe-8db4-64d62512c1ad
+INFO  [16:55:02.128] [bbotk]             2.262 db6089d7-78b1-49a7-a1d9-35beebf1429d
+INFO  [16:55:02.128] [bbotk]             1.505 a1af421e-fc3d-415b-94fe-5ac57d88c9c0
+INFO  [16:55:02.129] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:55:02.180] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [16:55:02.184] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:55:03.180] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:55:04.154] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:55:05.006] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [16:55:05.345] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [16:55:05.690] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [16:55:06.034] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:02:12.647] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:09:19.777] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:14.079] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:14.379] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:14.654] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:14.923] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:15.575] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:16.232] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:16.883] [mlr3] Finished benchmark
+INFO  [17:16:16.918] [bbotk] Result of batch 52:
+INFO  [17:16:16.919] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:16:16.919] [bbotk]  polynomial -9.210340  1.535057 -9.2103404      4   0.7487776        0      0
+INFO  [17:16:16.919] [bbotk]  polynomial -3.837642 -9.210340  0.6931472      2   0.6495465        0      0
+INFO  [17:16:16.919] [bbotk]  polynomial  1.535057  6.907755 -5.9091779      2   0.4941957        0      0
+INFO  [17:16:16.919] [bbotk]      radial -3.837642 -9.210340 -9.2103404     NA   0.8186521        0      0
+INFO  [17:16:16.919] [bbotk]      radial  6.907755  1.535057 -5.9091779     NA   0.6903226        0      0
+INFO  [17:16:16.919] [bbotk]  runtime_learners                                uhash
+INFO  [17:16:16.919] [bbotk]             2.798 8a3c26ed-3c93-419f-a36a-4465156b83d8
+INFO  [17:16:16.919] [bbotk]             1.003 0d8e172f-f048-4d73-97cc-381c21b21362
+INFO  [17:16:16.919] [bbotk]          1268.022 1cee677c-4d2b-4a28-950a-38d7619956d5
+INFO  [17:16:16.919] [bbotk]             0.827 df36676b-5731-4558-95e9-404ce8a0e0f9
+INFO  [17:16:16.919] [bbotk]             1.941 1e28e3d6-577d-4b9a-b5df-4ad26c6d49a9
+INFO  [17:16:16.920] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:16:16.949] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:16:16.952] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:17.114] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:17.270] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:17.427] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:17.686] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:17.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:18.188] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:18.642] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:19.068] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:19.458] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:21.281] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:22.490] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:23.643] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:23.914] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:24.176] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:24.450] [mlr3] Finished benchmark
+INFO  [17:16:24.486] [bbotk] Result of batch 53:
+INFO  [17:16:24.487] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:16:24.487] [bbotk]      linear -3.837642        NA  0.6931472     NA   0.8157935        0      0
+INFO  [17:16:24.487] [bbotk]  polynomial -9.210340  6.907755  0.6931472      5   0.7337959        0      0
+INFO  [17:16:24.487] [bbotk]  polynomial  1.535057  1.535057 -5.9091779      4   0.7487709        0      0
+INFO  [17:16:24.487] [bbotk]  polynomial  6.907755  6.907755 -5.9091779      3   0.7699717        0      0
+INFO  [17:16:24.487] [bbotk]      radial  1.535057 -3.837642 -5.9091779     NA   0.8662679        0      0
+INFO  [17:16:24.487] [bbotk]  runtime_learners                                uhash
+INFO  [17:16:24.487] [bbotk]             0.460 350614f0-0023-4aef-aeac-11406c6621a2
+INFO  [17:16:24.487] [bbotk]             0.744 b98ddf46-aee3-4a09-bc7d-237eccd6990f
+INFO  [17:16:24.487] [bbotk]             1.252 4e0e3791-d405-478f-a4bf-f14ca215f163
+INFO  [17:16:24.487] [bbotk]             4.169 997645b5-4e06-4538-a526-80aab02ca134
+INFO  [17:16:24.487] [bbotk]             0.790 7bdb9d7c-9742-4607-8882-66ee240e0ca1
+INFO  [17:16:24.488] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:16:24.517] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:16:24.520] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:24.702] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:24.889] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:25.074] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:25.288] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:25.496] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:25.710] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:26.000] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:26.298] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:26.563] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:16:26.946] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:16:27.323] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:16:27.674] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:20:47.811] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:25:08.832] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:29.015] [mlr3] Finished benchmark
+INFO  [17:29:29.051] [bbotk] Result of batch 54:
+INFO  [17:29:29.052] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [17:29:29.052] [bbotk]  polynomial -9.210340 -3.837642 -5.909178      2   0.6379443        0      0
+INFO  [17:29:29.052] [bbotk]  polynomial -3.837642 -3.837642 -5.909178      2   0.6935306        0      0
+INFO  [17:29:29.052] [bbotk]  polynomial  6.907755 -3.837642 -2.608015      4   0.7828071        0      0
+INFO  [17:29:29.052] [bbotk]  polynomial  6.907755  1.535057 -9.210340      5   0.7400587        0      0
+INFO  [17:29:29.052] [bbotk]  polynomial  6.907755  1.535057 -2.608015      2   0.5319598        0      0
+INFO  [17:29:29.052] [bbotk]  runtime_learners                                uhash
+INFO  [17:29:29.052] [bbotk]             0.537 e0e29b02-6a9a-44bf-b652-d0280291a10e
+INFO  [17:29:29.052] [bbotk]             0.620 edbc3daf-fb97-4222-8610-fcec50c2dfbd
+INFO  [17:29:29.052] [bbotk]             0.833 78d805f1-fba5-4c59-98a7-4aeacb87ea9f
+INFO  [17:29:29.052] [bbotk]             1.097 913f9315-3510-4383-b743-f6974dc261c7
+INFO  [17:29:29.052] [bbotk]           781.325 d7740cfc-aa2c-4e41-9070-08948e065dd4
+INFO  [17:29:29.053] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:29:29.083] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:29:29.085] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:29:29.265] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:29:29.445] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:29.625] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:29:29.976] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:29:30.315] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:30.627] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:29:30.816] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:29:31.015] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:31.212] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:29:31.568] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:29:31.904] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:32.219] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:29:32.477] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:29:32.749] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:33.012] [mlr3] Finished benchmark
+INFO  [17:29:33.048] [bbotk] Result of batch 55:
+INFO  [17:29:33.049] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:29:33.049] [bbotk]      linear -9.210340        NA -2.6080153     NA   0.8047270        0      0
+INFO  [17:29:33.049] [bbotk]  polynomial -9.210340  6.907755 -2.6080153      4   0.7487481        0      0
+INFO  [17:29:33.049] [bbotk]  polynomial -3.837642 -9.210340  0.6931472      4   0.6950450        0      0
+INFO  [17:29:33.049] [bbotk]  polynomial -3.837642  6.907755 -2.6080153      4   0.7487481        0      0
+INFO  [17:29:33.049] [bbotk]      radial -3.837642 -9.210340  0.6931472     NA   0.4007634        0      0
+INFO  [17:29:33.049] [bbotk]  runtime_learners                                uhash
+INFO  [17:29:33.049] [bbotk]             0.522 2b046340-e5b2-409e-adbc-d7f9a25c7415
+INFO  [17:29:33.049] [bbotk]             0.983 c216a46d-beb7-43d8-a9e9-0ee415c77a31
+INFO  [17:29:33.049] [bbotk]             0.568 4ebfe305-5459-4da1-9908-64d518ae95a8
+INFO  [17:29:33.049] [bbotk]             0.990 6b735b8d-edb0-4e6c-bf29-d2a35ffc1396
+INFO  [17:29:33.049] [bbotk]             0.776 20406833-0a18-473e-8f8a-5b5605858608
+INFO  [17:29:33.050] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:29:33.080] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:29:33.082] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:29:33.264] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:29:33.459] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:33.647] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:29:34.183] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:29:34.702] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:29:35.147] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:31:29.149] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:33:23.243] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:10.594] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:10.865] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:11.124] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:11.391] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:11.577] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:11.765] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:11.960] [mlr3] Finished benchmark
+INFO  [17:35:11.996] [bbotk] Result of batch 56:
+INFO  [17:35:11.997] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:35:11.997] [bbotk]  polynomial -9.210340 -3.837642 -2.6080153      3   0.8032707        0      0
+INFO  [17:35:11.997] [bbotk]  polynomial -9.210340  1.535057 -5.9091779      3   0.8035237        0      0
+INFO  [17:35:11.997] [bbotk]  polynomial -9.210340  6.907755 -5.9091779      2   0.7567082        0      0
+INFO  [17:35:11.997] [bbotk]  polynomial  1.535057  1.535057  0.6931472      4   0.7491366        0      0
+INFO  [17:35:11.997] [bbotk]  polynomial  6.907755 -9.210340  0.6931472      2   0.6481583        0      0
+INFO  [17:35:11.997] [bbotk]  runtime_learners                                uhash
+INFO  [17:35:11.997] [bbotk]             0.546 3d49135d-7e99-4b6a-bf98-a36b82098211
+INFO  [17:35:11.997] [bbotk]             1.481 006bfd32-dcb2-4dab-b14a-4b88a65e4b43
+INFO  [17:35:11.997] [bbotk]           335.430 032ad4ad-6f07-4f32-bdb4-5581d17a258e
+INFO  [17:35:11.997] [bbotk]             0.779 89a8552a-2a6b-44ef-8fa2-f1c9ec85cf4d
+INFO  [17:35:11.997] [bbotk]             0.550 36b6e555-b881-4cc0-be9a-53884e854037
+INFO  [17:35:11.997] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:35:12.027] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:35:12.030] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:12.212] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:12.409] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:12.603] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:12.828] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:13.063] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:13.294] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:13.789] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:14.193] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:14.596] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:14.883] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:15.166] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:15.428] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:15.975] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:16.521] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:17.083] [mlr3] Finished benchmark
+INFO  [17:35:17.119] [bbotk] Result of batch 57:
+INFO  [17:35:17.120] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:35:17.120] [bbotk]  polynomial -9.210340 -9.210340 -2.6080153      2   0.6379443        0      0
+INFO  [17:35:17.120] [bbotk]  polynomial -9.210340  1.535057 -5.9091779      2   0.7322584        0      0
+INFO  [17:35:17.120] [bbotk]  polynomial -3.837642  1.535057  0.6931472      3   0.7679955        0      0
+INFO  [17:35:17.120] [bbotk]  polynomial  6.907755 -3.837642 -5.9091779      5   0.8028704        0      0
+INFO  [17:35:17.120] [bbotk]      radial -3.837642  6.907755 -9.2103404     NA   0.5000000        0      0
+INFO  [17:35:17.120] [bbotk]  runtime_learners                                uhash
+INFO  [17:35:17.120] [bbotk]             0.556 aefac3f8-4013-40dc-b699-165bcd7fdffc
+INFO  [17:35:17.120] [bbotk]             0.673 eed837ba-cee7-4948-ba47-1e0aa65964ce
+INFO  [17:35:17.120] [bbotk]             1.287 124fd8e9-1374-4489-8eda-26ffcab4106a
+INFO  [17:35:17.120] [bbotk]             0.815 1a524599-0076-4884-ac2e-6499f5df6a16
+INFO  [17:35:17.120] [bbotk]             1.635 82c26d86-2e53-4b7e-aede-5434ae397da3
+INFO  [17:35:17.121] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:35:17.151] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:35:17.154] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:17.412] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:17.656] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:17.889] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:18.074] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:18.272] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:18.464] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:18.684] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:18.915] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:19.143] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:19.845] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:20.539] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:21.242] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:21.886] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:22.505] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:23.127] [mlr3] Finished benchmark
+INFO  [17:35:23.163] [bbotk] Result of batch 58:
+INFO  [17:35:23.164] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:35:23.164] [bbotk]  polynomial -3.837642  6.907755  0.6931472      5   0.7337959        0      0
+INFO  [17:35:23.164] [bbotk]  polynomial  1.535057 -9.210340 -2.6080153      3   0.8032707        0      0
+INFO  [17:35:23.164] [bbotk]      radial -9.210340  6.907755  0.6931472     NA   0.5000000        0      0
+INFO  [17:35:23.164] [bbotk]      radial  6.907755  1.535057 -9.2103404     NA   0.6903251        0      0
+INFO  [17:35:23.164] [bbotk]      radial  6.907755  1.535057 -2.6080153     NA   0.6901187        0      0
+INFO  [17:35:23.164] [bbotk]  runtime_learners                                uhash
+INFO  [17:35:23.164] [bbotk]             0.718 14bbdcde-0882-4248-9536-340725a5bf55
+INFO  [17:35:23.164] [bbotk]             0.557 451b8bdb-4f7f-4589-81da-5addfe8e1fd6
+INFO  [17:35:23.164] [bbotk]             0.664 0eaa140e-61ac-4652-9dd2-00d852c1043a
+INFO  [17:35:23.164] [bbotk]             2.079 58bcae86-1ff5-467b-a39e-4a93c303b6d3
+INFO  [17:35:23.164] [bbotk]             1.867 b6e3a742-e58f-4952-9422-00696a5d88fe
+INFO  [17:35:23.165] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:35:23.194] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:35:23.197] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:23.384] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:23.576] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:23.763] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:24.098] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:24.426] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:24.748] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:35:27.003] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:35:29.087] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:35:31.200] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:39:53.290] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:44:18.676] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:39.800] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:40.101] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:40.403] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:40.696] [mlr3] Finished benchmark
+INFO  [17:48:40.732] [bbotk] Result of batch 59:
+INFO  [17:48:40.733] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:48:40.733] [bbotk]  polynomial -9.210340 -9.210340  0.6931472      3   0.8139274        0      0
+INFO  [17:48:40.733] [bbotk]  polynomial  1.535057  1.535057 -5.9091779      5   0.7400586        0      0
+INFO  [17:48:40.733] [bbotk]  polynomial  6.907755 -3.837642 -5.9091779      2   0.7630949        0      0
+INFO  [17:48:40.733] [bbotk]  polynomial  6.907755  6.907755 -9.2103404      2   0.4941957        0      0
+INFO  [17:48:40.733] [bbotk]      radial  6.907755 -9.210340 -5.9091779     NA   0.8368337        0      0
+INFO  [17:48:40.733] [bbotk]  runtime_learners                                uhash
+INFO  [17:48:40.733] [bbotk]             0.549 3a5eba03-fb61-4d5d-bdcd-ac7cc41b09bf
+INFO  [17:48:40.733] [bbotk]             0.967 92ebb2ee-ac6e-459f-90fb-a7d56ff20216
+INFO  [17:48:40.733] [bbotk]             6.433 0e53ac17-5522-4bcb-afce-e9b238b741ed
+INFO  [17:48:40.733] [bbotk]           788.580 4eda732b-6d5a-403a-8d26-5f5838a6b666
+INFO  [17:48:40.733] [bbotk]             0.877 76d2ac24-266a-4e94-8f2a-7eab9613fea4
+INFO  [17:48:40.733] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:48:40.764] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:48:40.766] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:40.951] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:41.148] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:41.341] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:41.531] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:41.731] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:41.935] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:43.786] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:45.015] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:46.190] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:46.451] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:46.703] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:46.947] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:47.218] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:47.500] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:47.776] [mlr3] Finished benchmark
+INFO  [17:48:47.812] [bbotk] Result of batch 60:
+INFO  [17:48:47.813] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [17:48:47.813] [bbotk]  polynomial -3.837642 -9.210340 -5.9091779      2   0.6379443        0      0
+INFO  [17:48:47.813] [bbotk]  polynomial -3.837642 -9.210340 -5.9091779      5   0.5997587        0      0
+INFO  [17:48:47.813] [bbotk]  polynomial  1.535057  6.907755 -5.9091779      3   0.7699717        0      0
+INFO  [17:48:47.813] [bbotk]  polynomial  6.907755  6.907755  0.6931472      5   0.7337959        0      0
+INFO  [17:48:47.813] [bbotk]      radial -9.210340  1.535057 -9.2103404     NA   0.6358948        0      0
+INFO  [17:48:47.813] [bbotk]  runtime_learners                                uhash
+INFO  [17:48:47.813] [bbotk]             0.558 beb90396-b342-4719-b1b7-74c6f23ea3d5
+INFO  [17:48:47.813] [bbotk]             0.576 da1050a1-04cd-41db-8036-a9d443d93646
+INFO  [17:48:47.813] [bbotk]             4.238 0be30f30-64dd-4545-9c92-9a1889091596
+INFO  [17:48:47.813] [bbotk]             0.739 3309728a-259f-408a-a882-045da488f2f6
+INFO  [17:48:47.813] [bbotk]             0.811 bfa2f75e-10be-4f4d-a835-2b1303e5f129
+INFO  [17:48:47.814] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:48:47.844] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [17:48:47.847] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:48.039] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:48.235] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:48.427] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:48.853] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:49.254] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:49.617] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:48:51.565] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:48:52.804] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [17:48:54.109] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [17:53:17.994] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [17:57:38.981] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:01:54.436] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:01:55.066] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:01:55.686] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:01:56.311] [mlr3] Finished benchmark
+INFO  [18:01:56.350] [bbotk] Result of batch 61:
+INFO  [18:01:56.350] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [18:01:56.350] [bbotk]  polynomial -9.210340 -3.837642 -9.210340      3   0.8146696        0      0
+INFO  [18:01:56.350] [bbotk]  polynomial -3.837642  6.907755 -9.210340      5   0.7400576        0      0
+INFO  [18:01:56.350] [bbotk]  polynomial  6.907755  1.535057 -5.909178      3   0.7699610        0      0
+INFO  [18:01:56.350] [bbotk]  polynomial  6.907755  6.907755 -5.909178      2   0.4820502        0      0
+INFO  [18:01:56.350] [bbotk]      radial  1.535057  1.535057 -2.608015     NA   0.6901165        0      0
+INFO  [18:01:56.350] [bbotk]  runtime_learners                                uhash
+INFO  [18:01:56.350] [bbotk]             0.563 e63930f2-e26f-457d-af1e-53cbd3f5f859
+INFO  [18:01:56.350] [bbotk]             1.170 55b5cd1d-9ccf-4e31-a5ff-8eaf32f34f5b
+INFO  [18:01:56.350] [bbotk]             4.475 9db3bc45-558b-438e-9c0f-ff8733ccf0ba
+INFO  [18:01:56.350] [bbotk]           780.309 e3456ff8-e467-4036-893b-5258e0bbf001
+INFO  [18:01:56.350] [bbotk]             1.854 4bb5aba8-5d8a-40ff-96d9-14c4f079867d
+INFO  [18:01:56.351] [bbotk] Evaluating 5 configuration(s)
+INFO  [18:01:56.381] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [18:01:56.383] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:06:12.671] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:10:33.439] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:49.359] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:50.293] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:51.024] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:51.747] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:51.947] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:52.149] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:52.352] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:52.572] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:52.787] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:53.005] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:53.256] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:53.512] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:53.768] [mlr3] Finished benchmark
+INFO  [18:14:53.804] [bbotk] Result of batch 62:
+INFO  [18:14:53.805] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [18:14:53.805] [bbotk]  polynomial -3.837642  6.907755 -2.6080153      2   0.4884570        0      0
+INFO  [18:14:53.805] [bbotk]  polynomial  1.535057  6.907755 -2.6080153      3   0.7699249        0      0
+INFO  [18:14:53.805] [bbotk]  polynomial  6.907755 -9.210340 -5.9091779      5   0.7897709        0      0
+INFO  [18:14:53.805] [bbotk]  polynomial  6.907755 -3.837642  0.6931472      5   0.8020613        0      0
+INFO  [18:14:53.805] [bbotk]      radial -3.837642 -3.837642  0.6931472     NA   0.8417350        0      0
+INFO  [18:14:53.805] [bbotk]  runtime_learners                                uhash
+INFO  [18:14:53.805] [bbotk]           772.957 8aa0ae78-c88d-42a8-a6f9-1c8b5e3d152f
+INFO  [18:14:53.805] [bbotk]             2.370 6b2b5177-308f-4f65-b896-a0b8d1e05143
+INFO  [18:14:53.805] [bbotk]             0.586 37e60085-cad0-4239-9b58-fab61bac30c6
+INFO  [18:14:53.805] [bbotk]             0.635 7a66fd16-0cab-40db-b251-b91f401f8a90
+INFO  [18:14:53.805] [bbotk]             0.744 81415168-2aa9-40af-9946-c54fe4347ade
+INFO  [18:14:53.806] [bbotk] Evaluating 5 configuration(s)
+INFO  [18:14:53.847] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [18:14:53.850] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:54.032] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:54.222] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:54.412] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:54.599] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:54.788] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:54.974] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:55.243] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:55.506] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:55.769] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:14:55.989] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:14:56.219] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:14:56.445] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:16:49.258] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:18:40.421] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:20:27.021] [mlr3] Finished benchmark
+INFO  [18:20:27.056] [bbotk] Result of batch 63:
+INFO  [18:20:27.057] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [18:20:27.057] [bbotk]  polynomial -3.837642 -9.210340 -5.9091779      3   0.8032707        0      0
+INFO  [18:20:27.057] [bbotk]  polynomial -3.837642 -3.837642  0.6931472      2   0.5574184        0      0
+INFO  [18:20:27.057] [bbotk]  polynomial -3.837642  1.535057  0.6931472      4   0.7491366        0      0
+INFO  [18:20:27.057] [bbotk]  polynomial  1.535057 -3.837642 -5.9091779      5   0.8153510        0      0
+INFO  [18:20:27.057] [bbotk]  polynomial  1.535057  1.535057 -2.6080153      2   0.7574503        0      0
+INFO  [18:20:27.057] [bbotk]  runtime_learners                                uhash
+INFO  [18:20:27.057] [bbotk]             0.546 7e8162fe-557c-4780-bf84-346567b4ac1a
+INFO  [18:20:27.057] [bbotk]             0.543 06a9b3d3-caa6-4b82-953a-588c142136d2
+INFO  [18:20:27.057] [bbotk]             0.776 81dd9e75-0db9-4fc2-81be-3073f0667ef6
+INFO  [18:20:27.057] [bbotk]             0.657 996281c3-f5f8-4b8f-8758-a0807c15d80f
+INFO  [18:20:27.057] [bbotk]           330.557 d95b88db-4c02-49ce-8608-986e6c392c77
+INFO  [18:20:27.058] [bbotk] Evaluating 5 configuration(s)
+INFO  [18:20:27.087] [mlr3] Running benchmark with 15 resampling iterations
+INFO  [18:20:27.090] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:21:28.284] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:22:32.112] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:31.800] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:31.989] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:32.180] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:32.372] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:32.553] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:32.739] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:32.924] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:33.841] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:34.590] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:35.328] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:36.752] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:38.201] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:39.514] [mlr3] Finished benchmark
+INFO  [18:23:39.549] [bbotk] Result of batch 64:
+INFO  [18:23:39.550] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [18:23:39.550] [bbotk]  polynomial -9.210340  6.907755  0.6931472      2   0.7459849        0      0
+INFO  [18:23:39.550] [bbotk]  polynomial -3.837642 -9.210340 -5.9091779      4   0.6883842        0      0
+INFO  [18:23:39.550] [bbotk]  polynomial  6.907755 -9.210340 -5.9091779      3   0.8032707        0      0
+INFO  [18:23:39.550] [bbotk]  polynomial  6.907755  6.907755 -2.6080153      3   0.7699249        0      0
+INFO  [18:23:39.550] [bbotk]      radial  6.907755 -3.837642 -9.2103404     NA   0.8172487        0      0
+INFO  [18:23:39.550] [bbotk]  runtime_learners                                uhash
+INFO  [18:23:39.550] [bbotk]           184.694 2cbf795a-4388-4b3b-b99d-1cb9cd57584a
+INFO  [18:23:39.550] [bbotk]             0.552 c5a3536f-cfe9-466c-8672-7826b945dd57
+INFO  [18:23:39.550] [bbotk]             0.536 aa4df860-daff-4597-8f3b-60c7cbd251da
+INFO  [18:23:39.550] [bbotk]             2.389 d93b8e42-2023-4bbc-8f90-5b587a602c31
+INFO  [18:23:39.550] [bbotk]             4.168 aa1b5d49-f8ef-4bc8-92ba-fe3157aed7d0
+INFO  [18:23:39.551] [bbotk] Evaluating 4 configuration(s)
+INFO  [18:23:39.575] [mlr3] Running benchmark with 12 resampling iterations
+INFO  [18:23:39.578] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:39.763] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:39.950] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:40.138] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:40.612] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:41.012] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:41.399] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:41.662] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:41.929] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:42.196] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:42.492] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:42.784] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:43.071] [mlr3] Finished benchmark
+INFO  [18:23:43.102] [bbotk] Result of batch 65:
+INFO  [18:23:43.103] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [18:23:43.103] [bbotk]  polynomial  6.907755 -9.210340 -2.6080153      2   0.6342652        0      0
+INFO  [18:23:43.103] [bbotk]  polynomial  6.907755  6.907755  0.6931472      3   0.7694273        0      0
+INFO  [18:23:43.103] [bbotk]      radial -3.837642 -9.210340 -5.9091779     NA   0.8022997        0      0
+INFO  [18:23:43.103] [bbotk]      radial  6.907755 -9.210340 -9.2103404     NA   0.8368489        0      0
+INFO  [18:23:43.103] [bbotk]  runtime_learners                                uhash
+INFO  [18:23:43.103] [bbotk]             0.542 056cd3e5-6cfd-4272-a5e7-b726dfe7b281
+INFO  [18:23:43.103] [bbotk]             1.243 8cf27751-769a-4a3b-95b4-3ecea935bd32
+INFO  [18:23:43.103] [bbotk]             0.782 76ea7fdc-5f72-4a69-8876-5a8ecad5eec8
+INFO  [18:23:43.103] [bbotk]             0.861 72f9a376-9480-4de5-aea2-aa263163170e
+INFO  [18:23:43.107] [bbotk] Evaluating 4 configuration(s)
+INFO  [18:23:43.132] [mlr3] Running benchmark with 12 resampling iterations
+INFO  [18:23:43.134] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:43.348] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:43.563] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:43.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:43.971] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:44.163] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:44.362] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:23:44.784] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:23:45.172] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:23:45.530] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:28:03.326] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:32:24.779] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:42.767] [mlr3] Finished benchmark
+INFO  [18:36:42.799] [bbotk] Result of batch 66:
+INFO  [18:36:42.799] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [18:36:42.799] [bbotk]  polynomial -3.837642 -3.837642 -9.210340      2   0.6933386        0      0
+INFO  [18:36:42.799] [bbotk]  polynomial  1.535057 -9.210340 -9.210340      4   0.6859279        0      0
+INFO  [18:36:42.799] [bbotk]  polynomial  1.535057  6.907755 -9.210340      5   0.7400587        0      0
+INFO  [18:36:42.799] [bbotk]  polynomial  1.535057  6.907755 -2.608015      2   0.5006025        0      0
+INFO  [18:36:42.799] [bbotk]  runtime_learners                                uhash
+INFO  [18:36:42.799] [bbotk]             0.632 253dca93-2534-41a6-a181-cbba4d947ce9
+INFO  [18:36:42.799] [bbotk]             0.568 f4c94a60-89c0-4fc7-87d5-a2aa3a9b791f
+INFO  [18:36:42.799] [bbotk]             1.152 60b8f02f-b150-41b9-b7e8-52b80abce8e8
+INFO  [18:36:42.799] [bbotk]           777.221 7a6756d3-aad3-4c4f-bd1d-dde7339d0f98
+INFO  [18:36:42.800] [bbotk] Evaluating 4 configuration(s)
+INFO  [18:36:42.825] [mlr3] Running benchmark with 12 resampling iterations
+INFO  [18:36:42.827] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:43.131] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:43.417] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:43.699] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:44.005] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:44.309] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:44.592] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:44.845] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:45.111] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:45.372] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:45.631] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:45.906] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:46.177] [mlr3] Finished benchmark
+INFO  [18:36:46.209] [bbotk] Result of batch 67:
+INFO  [18:36:46.210] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [18:36:46.210] [bbotk]  polynomial  1.535057  6.907755 -2.6080153      5   0.7397672        0      0
+INFO  [18:36:46.210] [bbotk]  polynomial  6.907755 -3.837642 -9.2103404      5   0.8028814        0      0
+INFO  [18:36:46.210] [bbotk]      radial -9.210340 -9.210340  0.6931472     NA   0.3918375        0      0
+INFO  [18:36:46.210] [bbotk]      radial -3.837642 -9.210340 -2.6080153     NA   0.8022997        0      0
+INFO  [18:36:46.210] [bbotk]  runtime_learners                                uhash
+INFO  [18:36:46.210] [bbotk]             0.856 a0208c33-2553-4bb4-960b-756152311713
+INFO  [18:36:46.210] [bbotk]             0.878 c11aa0c5-7375-4d1d-9ae9-275063742052
+INFO  [18:36:46.210] [bbotk]             0.763 48314f73-659b-4c40-9b79-d64efb6ca154
+INFO  [18:36:46.210] [bbotk]             0.790 0bd216b8-bf09-40e6-af74-de5b8d327cfe
+INFO  [18:36:46.210] [bbotk] Evaluating 4 configuration(s)
+INFO  [18:36:46.235] [mlr3] Running benchmark with 12 resampling iterations
+INFO  [18:36:46.238] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:49.639] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:51.837] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:53.886] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:54.514] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:55.161] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:55.785] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:56.060] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:56.354] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:56.643] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/3)
+INFO  [18:36:56.837] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/3)
+INFO  [18:36:57.031] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/3)
+INFO  [18:36:57.222] [mlr3] Finished benchmark
+INFO  [18:36:57.253] [bbotk] Result of batch 68:
+INFO  [18:36:57.254] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [18:36:57.254] [bbotk]  polynomial -9.210340  6.907755 -9.2103404      3   0.7699586        0      0
+INFO  [18:36:57.254] [bbotk]  polynomial  6.907755 -3.837642  0.6931472      2   0.7511001        0      0
+INFO  [18:36:57.254] [bbotk]      radial -3.837642 -3.837642 -9.2103404     NA   0.8460763        0      0
+INFO  [18:36:57.254] [bbotk]      radial  6.907755  1.535057  0.6931472     NA   0.6254048        0      0
+INFO  [18:36:57.254] [bbotk]  runtime_learners                                uhash
+INFO  [18:36:57.254] [bbotk]             7.634 d9465075-f525-4861-9449-0e41e36272ab
+INFO  [18:36:57.254] [bbotk]             1.883 deb7498e-6159-4524-b705-84f02078c333
+INFO  [18:36:57.254] [bbotk]             0.843 ce530e4c-6c9d-42b9-bd26-af3e754b7c28
+INFO  [18:36:57.254] [bbotk]             0.562 fe948b6b-e3b7-47ab-acad-5f3ae99b9b94
+INFO  [18:36:57.261] [bbotk] Finished optimizing after 336 evaluation(s)
+INFO  [18:36:57.261] [bbotk] Result:
+INFO  [18:36:57.262] [bbotk]  kernel     cost     gamma tolerance degree learner_param_vals  x_domain
+INFO  [18:36:57.262] [bbotk]  radial 1.535057 -3.837642 -2.608015     NA          <list[5]> <list[4]>
+INFO  [18:36:57.262] [bbotk]  classif.auc
+INFO  [18:36:57.262] [bbotk]    0.8664778
+   kernel     cost     gamma tolerance degree learner_param_vals  x_domain
+1: radial 1.535057 -3.837642 -2.608015     NA          <list[5]> <list[4]>
+   classif.auc
+1:   0.8664778
